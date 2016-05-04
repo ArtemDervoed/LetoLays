@@ -1,0 +1,387 @@
+@font-face {
+    font-family:GothaProMed; /* Гарнитура шрифта */
+    src: url(../fonts/GothaProMed.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family:GothaProBol; /* Гарнитура шрифта */
+    src: url(../fonts/GothaProBol.otf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family:GothaProLig; /* Гарнитура шрифта */
+    src: url(../fonts/GothaProLig.otf); /* Путь к файлу со шрифтом */
+   }
+html{
+	overflow-y:scroll  ;
+	overflow-x:scroll  ;
+
+}
+body{
+	padding: 0;
+	width: 1560px;
+	height: 2903px;
+	margin: 0  auto;
+
+}
+main{
+	width: 1560px;
+}
+.main-header{
+	display: flex;
+	flex-direction: column;
+	width: 149px;
+	height: 653px;
+	position: fixed;
+}
+.logo{
+	widows: 149px;
+	margin: 0;
+	height: 150px;
+	background-image: url(../img/lays.png);
+	background-size: 81px, 91px;
+	background-repeat:  no-repeat;
+	background-position: 30px , 80px;
+}
+.logo-lays{
+	position: relative;
+    text-align: center;
+    padding-top: 110px;
+    margin-bottom:80px; 
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    font-family:GothaProLig;
+}
+.item{
+	width: 149px;
+	height:150px;
+	background-position: 50px, 50px;
+
+}
+.insta{
+	background-image: url(../img/menu-items/insta.png);
+	background-repeat:  no-repeat;
+	font-family:GothaProLig;
+
+}
+.prize{
+	background-image: url(../img/menu-items/prize.png);
+	background-repeat:  no-repeat;
+font-family:GothaProLig;
+}
+.map{
+	background-image: url(../img/menu-items/map.png);
+	background-repeat:  no-repeat;
+	font-family:GothaProLig;
+}
+.text-menu{
+	position: relative;
+    text-align: center;
+    padding-top: 97px;
+    font-size: 14px;
+    color: #555;
+  }
+
+ .container{
+ 	position: relative;
+ 	height: 2903px;
+ 	width: 1410px;
+ 	margin-left:150px;
+ 	box-shadow:-1px 0px 1px 1px rgba(0 ,0 ,0 ,0.2);
+ 	
+ }
+ 
+ .top-background{
+ 	width: 1410px;
+ 	height:645px;
+	background-image: url(../img/top-backround.jpg);	
+	background-size:1410px 650px ;
+	background-repeat: no-repeat;;
+
+ }
+ .logo-items{
+ 	
+ 	margin:0;
+ 	padding: 0; 
+ }
+ .content{
+ 	display: flex;
+ 	flex-direction: column;
+ 	width: 1410px;
+ }
+ .row-content{
+ 	width: 1410px;
+ 	height: 718px;
+ 	display: flex;
+ 	flex-direction: row;
+ }
+ .block-content{
+ 	margin:0;
+ 	position: relative;
+ 	width: 705px;
+ 	height: 718px;
+ 	background-repeat: no-repeat;
+
+ }
+ .sub-row-content{
+ 	display: flex;
+ 	flex-direction: row;
+ 	position: relative;
+ 	left: 15px;
+ 	top:17px;
+ 	width: 670px;
+ 	margin: 0;
+ }
+ .sub-content{
+ 	width: 213px;
+ 	height: 213px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	margin:4px;
+ }
+ .row-content:nth-child(1) .block-content:nth-child(1){
+	background-image: url(../img/girl.jpg);
+	display: flex;
+	flex-direction: column;
+ }
+ .row-content:nth-child(1) .block-content:nth-child(1) input[type="button"]{
+	width:250px ;
+	height:70px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid white;
+	position: relative;
+	 margin-top: 30px;
+	margin-left:90px; 
+	color: white;
+	font-size: 24px;
+ }
+ .social-network{
+	height: 275px;
+ }
+.fa{ 
+	color: blue;
+	background-color: white;
+	padding:20px; 
+	box-shadow:2px 2px 20px 0px #34495e;
+}
+.fa-facebook{
+	position: relative; 
+	top:120px;
+	left:50px;
+	transform: rotate(-15deg);
+	padding-left: 30px;
+	padding-right: 30px;
+	z-index: 1;
+
+}
+.fa-vk{
+	position: relative;
+	top:50px;
+	left:40px;
+	transform: rotate(10deg);
+	z-index: 2;
+}
+.fa-instagram{
+	position: relative;
+	top:150px;
+	left:0px;
+	transform: rotate(30deg);
+	z-index: 1;
+}
+.load-text{
+	font-family: GothaProBol;
+	font-size: 40px;
+	padding-left:100px;
+}
+
+.load-text span{
+font-family: GothaProLig;
+background-color:white;
+color: red; 
+}
+
+ .row-content:nth-child(1) .block-content:nth-child(2){
+	background-color: white;
+ }
+ .row-content:nth-child(2) .block-content:nth-child(1){
+	background-color: red;
+	background-image:url(../img/layspack.png);
+	background-position: 50px 100px;
+	display: flex;
+ 	flex-direction: column;
+ 	color: white;
+ }
+.header-on-red-block{
+	font-family: GothaProMed;
+	font-size: 44px;
+	margin-left:330px;
+	margin-top:180px;  
+}
+.text-on-red-block{
+	font-family: GothaProLig;
+	font-size: 18px;
+	margin-left:90px;
+	margin-top:100px; 
+}
+ .row-content:nth-child(2) .block-content:nth-child(2){
+	background-image:url(../img/aerostat.png), url(../img/field.jpg);
+	background-position:
+	215px 122px,
+   -350px 0;
+	background-repeat: no-repeat;
+ }
+ .row-content:nth-child(3) .block-content:nth-child(1){
+	background-image: url(../img/peopleonbeach.jpg);
+ }
+ .row-content:nth-child(3) .block-content:nth-child(2){
+ 	display: flex;
+ 	flex-direction: column;
+	background-image:url(../img/lays.png), url(../img/linkonmap.png), url(../img/map.png),url(../img/areaundermap.jpg);
+	background-repeat: no-repeat;
+	background-size: 100px 100px,auto,auto,auto;
+	background-position: 
+	316px 100px,
+	290px 75px,
+	40px 210px, 
+	0 0;
+ }
+ .row-content:nth-child(3) .block-content:nth-child(2) input[type="button"]{
+	width:250px ;
+	height:70px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid white;
+	position: relative;
+	 margin-top: 50px;
+	margin-left:230px; 
+	color: white;
+	font-size: 24px;
+ }
+ .row-content:nth-child(2) .block-content:nth-child(1) input[type="button"]{
+	width:250px ;
+	height:70px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid white;
+	position: relative;
+	 margin-top: 50px;
+	margin-left:90px; 
+	color: white;
+	font-size: 24px;
+ }
+ .row-content:nth-child(3) .block-content:nth-child(2) .summer-text{
+ 	position: relative;
+ 	font-family: GothaProLig;
+ 	font-size: 48px;
+ 	padding-left: 200px;
+ 	margin-top:480px; 
+ }
+ .row-content:nth-child(2)
+ .row-content:nth-child(3){
+ 	background-color:yellow; 
+ }
+ footer{
+ 	width: 1410px;
+ 	height: 100px;
+ 	background-color:  #393530;
+ 	display: flex;
+ 	flex-direction: row;
+ }
+ .copyright{
+ 	width: 108px;
+ 	height: inherit;
+ 	
+ }
+ .copyright-data{
+	color: #9b9a98;
+	font-size: 14px;
+	width: 882px;
+	margin-left:20px; 
+	margin-top: 40px;
+	font-family: GothaProLig;
+	
+ }
+ .copyright .logo{
+ 	background-image: url(../img/lays.png);
+	background-size: 80px, 93px;
+	background-repeat:  no-repeat;
+ 	width: 150px;
+ 	height: inherit;
+ }
+ .socialnetwork{
+ 	width: 100px;
+ 	height: inherit;
+ }
+
+ .facebook{
+ 	background-image: url(../img/social/fb.jpg);
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ }
+ .vk{
+ 	background-image: url(../img/social/vk.jpg);
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ }
+ .web{
+ 	background-image: url(../img/social/net.jpg);
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ }
+ .youtube{
+ 	background-image: url(../img/social/yt.jpg);
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ }
+ .logo-items{
+ 	display: flex;
+ 	flex-direction: row;
+ 	position: relative;
+ 	margin-left:100px;
+ 	top: 75px;
+ }
+ .block{
+	background-color: white;
+	height: 125px;
+	width:125px;
+	border-radius: 100%;
+	margin-right: 60px;
+ }
+ .caption{
+ 	width: 150px;
+ 	text-align: center;
+ 	position: relative;
+ 	top:130px;
+ 	right: 10px;
+ 	font-family:GothaProLig; 
+ }
+ .red{
+ 	color:red;
+ }
+
+ .lays-summer{
+ 	position: relative;
+ 	height: 200px;
+ 	width:350px;
+	right: 550px;
+	top:180px;
+ 	font-size: 80px;
+ 	font-family:GothaProMed; 
+ 	color:red;
+ }
+.lays-summer::first-line{
+	letter-spacing:12px;
+}
+ .with-lays{
+	font-family:GothaProMed;
+	position: relative;
+ 	bottom: 60px;
+ 	word-spacing:-2px;
+}
+ .with-lays::first-letter{
+ 	font-family: GothaProLig;
+ }
+ .better{
+	font-family:GothaProLig; 
+ 	font-size: 50px; 
+ 	position: relative;
+ 	bottom: 40px;
+ 	letter-spacing:3px;
+ }
