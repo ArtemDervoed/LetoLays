@@ -1,0 +1,32 @@
+@import url(../header/menu-items/menu-strip.css);
+.main-header{
+    display: flex;
+    flex-direction: column;
+    max-width: 149px;
+    min-height: 2903px;
+    position: absolute;
+    background-color: #f6f6f6;
+}
+.logo{
+    max-width: inherit;
+    margin: 0;
+    height: 150px;
+    background-image: url(../header/lays.png);
+    background-size: 81px, 91px;
+    background-repeat:  no-repeat;
+    background-position: 30px , 80px;
+}
+.logo-lays{
+    position: relative;
+    text-align: center;
+    padding-top: 110px;
+    margin-bottom:80px; 
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    font-family:GothaProLig;
+}
+.empty{
+    max-width: inherit;
+    height: 100%;
+}

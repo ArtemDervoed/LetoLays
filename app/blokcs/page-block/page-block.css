@@ -1,0 +1,5 @@
+@import url(../page-block/header/main-header.css);
+@import url(../page-block/container/container.css);
+main{
+	min-width: 1560px;
+}

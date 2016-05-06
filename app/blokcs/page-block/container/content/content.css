@@ -1,0 +1,12 @@
+@import url(block-content/block-content.css);
+ .content{
+ 	display: flex;
+ 	flex-direction: column;
+ 	width: 1410px;
+ }
+ .row-content{
+ 	max-width: 1410px;
+ 	min-height: 718px;
+ 	display: flex;
+ 	flex-direction: row;
+ }

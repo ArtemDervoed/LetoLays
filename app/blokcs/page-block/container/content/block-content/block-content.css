@@ -1,0 +1,26 @@
+@import url(aerostat/aerostat.css);
+@import url(galery/galery.css);
+@import url(girl-at-wall/girl-at-wall.css);
+@import url(lays-pack/lays-pack.css);
+@import url(map/map.css);
+@import url(people/people.css);
+
+  .content{
+ 	display: flex;
+ 	flex-direction: column;
+ 	width: 1410px;
+ }
+ .row-content{
+ 	width: 1410px;
+ 	height: 718px;
+ 	display: flex;
+ 	flex-direction: row;
+ }
+ .block-content{
+ 	margin:0;
+ 	position: relative;
+ 	width: 705px;
+ 	height: 718px;
+ 	background-repeat: no-repeat;
+
+ }

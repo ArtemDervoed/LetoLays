@@ -1,0 +1,17 @@
+
+.copyright .logo{
+ 	background-image: url(lays.png);
+	background-size: 80px, 93px;
+	background-repeat:  no-repeat;
+ 	width: 150px;
+ 	height: 100px;
+ }
+  .copyright-data{
+	color: #9b9a98;
+	font-size: 14px;
+	width: 882px;
+	margin-left:20px; 
+	margin-top: 40px;
+	font-family: GothaProLig;
+	
+ }

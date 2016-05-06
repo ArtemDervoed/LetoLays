@@ -1,0 +1,8 @@
+@import url(../top-background/logo-items/animated.css);
+.top-background{
+ 	max-width: 1410px;
+ 	min-height:645px;
+	background-image: url(top-backround.jpg);	
+	background-size:inherit ;
+	background-repeat: no-repeat;;
+ }

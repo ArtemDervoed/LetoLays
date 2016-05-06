@@ -1,0 +1,19 @@
+.row-content:nth-child(1) .block-content:nth-child(2){
+	background-color: white;
+ }
+.sub-row-content{
+ 	display: flex;
+ 	flex-direction: row;
+ 	position: relative;
+ 	left: 15px;
+ 	top:17px;
+ 	width: 670px;
+ 	margin: 0;
+ }
+ .sub-content{
+ 	width: 213px;
+ 	height: 213px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	margin:4px;
+ }

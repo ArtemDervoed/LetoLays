@@ -1,0 +1,7 @@
+.row-content:nth-child(2) .block-content:nth-child(2){
+	background-image:url(aerostat.png), url(field.jpg);
+	background-position:
+	215px 122px,
+   -350px 0;
+	background-repeat: no-repeat;
+ }
