@@ -5,3 +5,11 @@
    -350px 0;
 	background-repeat: no-repeat;
  }
+ .row-content:nth-child(2) .block-content:nth-child(2):hover{
+ 	transition: all;
+ 	transition-duration: 5s;
+	
+ }
+ @media screen and (max-width: 640px) {
+
+}

@@ -2,19 +2,21 @@
 .main-header{
     display: flex;
     flex-direction: column;
-    max-width: 149px;
-    min-height: 2903px;
+    width: 150px;
+    height: 2860px;
     position: absolute;
     background-color: #f6f6f6;
+
 }
 .logo{
-    max-width: inherit;
+    width: inherit;
     margin: 0;
     height: 150px;
     background-image: url(../header/lays.png);
-    background-size: 81px, 91px;
+    background-size: 80px, 90px;
     background-repeat:  no-repeat;
     background-position: 30px , 80px;
+  
 }
 .logo-lays{
     position: relative;
@@ -27,6 +29,26 @@
     font-family:GothaProLig;
 }
 .empty{
-    max-width: inherit;
-    height: 100%;
+    width: inherit;
+    height: inherit;
+}
+@media screen and (max-width: 640px) {
+.main-header{
+    width:640px;
+    height:160px;
+    flex-direction: row;
+    position: relative;
+  }
+  .logo-lays{
+     position: relative;
+     text-align: center;
+     margin-left: 170px; 
+     padding-top: 0px;
+     font-size: 50px;
+     font-weight: bold;
+  }
+  .logo{
+    height: 160px;
+    width: 150px;
+  }
 }

@@ -24,8 +24,23 @@
 	background-color: rgba(0, 0, 0, 0);
 	border: 2px solid white;
 	position: relative;
-	 margin-top: 50px;
+	margin-top: 50px;
 	margin-left:90px; 
 	color: white;
 	font-size: 24px;
  }
+.row-content:nth-child(2) .block-content:nth-child(1) input[type="button"]:hover{
+    transition: all;
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 640px) {
+.row-content:nth-child(2) .block-content:nth-child(1) input[type="button"]{
+	width:240px ;
+	height:60px;
+	margin-top: 0px;
+	margin-left:90px; 
+	color: white;
+	font-size: 22px;
+ }
+}

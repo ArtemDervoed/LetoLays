@@ -13,38 +13,20 @@
    }
 html{
 	overflow-y:scroll  ;
-	overflow-x:scroll  ;
+	overflow-x: hidden;  ;
 
 }
 body{
 	padding: 0;
 	max-width: 1560px;
-	height: 2903px;
+	min-height: 2900px;
 	margin: 0  auto;
 
 }
 @media screen and (max-width: 640px) {
   body{
     max-width: 640px;
+    min-height: 5000px;
   }
-  .main-header{
-    max-width:640px;
-    min-height:160px;
-    flex-direction: row;
-    position: relative;
-  }
-  .container{
-    margin-left:0;
-    max-width: 640px; 
-  }
-  .top-background{
-    background-image: url(page-block/container/top-background/top-backround.jpg),url(page-block/container/top-background/sky.jpg); 
-    background-position: -660px 510px,0 0px;
-    min-height: 1110px;
-  }
-  .row-content{
-  max-width: 640px;
-  min-height: 640px;
-  flex-direction: column;
- }
+
 }

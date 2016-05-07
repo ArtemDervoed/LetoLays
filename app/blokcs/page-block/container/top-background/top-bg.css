@@ -6,3 +6,10 @@
 	background-size:inherit ;
 	background-repeat: no-repeat;;
  }
+ @media screen and (max-width: 640px) {
+.top-background{
+    max-width: 640px;
+    background-position: -660px 510px,0 0px;
+    min-height: 1110px;
+  }
+}

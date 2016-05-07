@@ -3,9 +3,16 @@
 @import url(../container/content/footer/footer.css);
 .container{
  	position:relative;
- 	min-height: 2903px;
- 	max-width: 1410px;
+ 	height: 2860px;
+ 	width: 1410px;
  	margin-left:150px;
  	box-shadow:-1px 0px 1px 1px rgba(0 ,0 ,0 ,0.2);
  	
  }
+ @media screen and (max-width: 640px) {
+ .container{
+    margin-left: 0px;
+    max-width: 640px; 
+    min-height: 4840px;
+  }
+}

@@ -1,10 +1,4 @@
-.row-content:nth-child(3) .block-content:nth-child(2) .summer-text{
- 	position: relative;
- 	font-family: GothaProLig;
- 	font-size: 48px;
- 	padding-left: 200px;
- 	margin-top:480px; 
- }
+
  .row-content:nth-child(2)
  .row-content:nth-child(3){
  	background-color:yellow; 
@@ -12,3 +6,6 @@
   .row-content:nth-child(3) .block-content:nth-child(1){
 	background-image: url(peopleonbeach.jpg);
  }
+ @media screen and (max-width: 640px) {
+
+}

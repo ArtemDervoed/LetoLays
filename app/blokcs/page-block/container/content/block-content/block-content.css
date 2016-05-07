@@ -12,7 +12,7 @@
  }
  .row-content{
  	width: 1410px;
- 	height: 718px;
+ 	height: 705px;
  	display: flex;
  	flex-direction: row;
  }
@@ -20,7 +20,19 @@
  	margin:0;
  	position: relative;
  	width: 705px;
- 	height: 718px;
+ 	height: 705px;
  	background-repeat: no-repeat;
 
  }
+ @media screen and (max-width: 640px) {
+ .row-content{
+  width: 640px;
+  height: 1280px;
+  flex-direction: column;
+ }
+  .block-content{
+  margin-top: 10px;
+   width: 640px;
+    height: 640px;
+  }
+}

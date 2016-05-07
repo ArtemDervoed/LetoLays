@@ -27,3 +27,14 @@
  	bottom: 40px;
  	letter-spacing:3px;
  }
+ @media screen and (max-width: 640px) {
+.lays-summer{
+ 	width: 400px;
+	top:-120px;
+	margin-left:150px; 
+ 	
+ }
+ .with-lays{
+ 	width: 400px;
+ }
+}
