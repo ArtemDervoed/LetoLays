@@ -1,0 +1,27 @@
+@import url(../menu-items/insta/insta.css);
+@import url(../menu-items/map/map.css);
+@import url(../menu-items/prize/prize.css);
+.item{
+    width: 150px;
+    height:150px;
+    background-position: 50px, 50px;
+
+}
+.text-menu{
+    position: relative;
+    text-align: center;
+    padding-top: 97px;
+    font-size: 14px;
+    color: #555;
+  }
+  .item:hover{
+    transition: all;
+    transition-duration: 1s;
+    background-color: white;
+  }
+  @media screen and (max-width: 640px) {
+
+  .item{
+    display: none;
+  }
+}
