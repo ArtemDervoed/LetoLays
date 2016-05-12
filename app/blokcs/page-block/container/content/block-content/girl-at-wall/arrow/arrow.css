@@ -1,0 +1,35 @@
+.arrow{
+	position: relative;
+    height: 65px;
+    width: 5px;
+    background-color: red;
+    border-radius: 25%;
+    left: 124px;
+    bottom: 35px;
+    margin-left: 50px;
+}
+.arrow::after{
+	position: relative;
+	content: '';
+	width: 40px;
+	left: -31px;
+	top: 2px;
+    height: 5px;
+	background-color: red;	
+	border-radius: 25%;
+	transform: rotate(-45deg);
+	display: block;
+}
+.arrow::before {
+	position: relative;
+	content: '';
+	width: 40px;
+    left: -4px;
+    height: 5px;
+    top: 7px;
+	background-color: red;	
+	border-radius: 25%;
+	transform: rotate(45deg);
+	display: block;
+
+}

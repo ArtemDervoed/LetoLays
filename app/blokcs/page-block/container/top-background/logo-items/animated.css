@@ -3,31 +3,32 @@
 @import url(../logo-items/prize-animation/prize-animated.css);
 @import url(../logo-items/lays-summer-text/lays-summer-text.css);
 .block{
+	position: relative;
 	background-color: white;
 	height: 125px;
 	width:125px;
 	border-radius: 100%;
 	margin-right: 60px;
+	top: 50px;
  }
  .caption{
  	width: 150px;
  	text-align: center;
- 	position: relative;
- 	top:130px;
  	right: 10px;
  	font-family:GothaProLig; 
+ 	position: relative;
+ 	top: 120px;
+ }
+ .red{
+ 	color: red;
  }
   .logo-items{
  	display: flex;
  	flex-direction: row;
- 	position: relative;
  	margin-left:100px;
- 	top: 75px;
  }
  @media screen and (max-width: 640px) {
- .block{
-	
-	margin-top:300px; 
-	margin-right: 40px;
+.block{
+	top: 300px;
  }
 }

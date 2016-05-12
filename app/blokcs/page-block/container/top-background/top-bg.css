@@ -1,15 +1,16 @@
 @import url(../top-background/logo-items/animated.css);
 .top-background{
- 	max-width: 1410px;
- 	min-height:645px;
+ 	width: 1410px;
+ 	height:645px;
 	background-image: url(top-backround.jpg);	
 	background-size:inherit ;
-	background-repeat: no-repeat;;
+	background-repeat: no-repeat;
+
  }
  @media screen and (max-width: 640px) {
 .top-background{
-    max-width: 640px;
-    background-position: -660px 510px,0 0px;
-    min-height: 1110px;
+    width: 640px;
+    background-image: url(top-backround-mobile.jpg);	
+    height: 1110px;
   }
 }

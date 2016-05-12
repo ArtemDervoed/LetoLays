@@ -1,14 +1,18 @@
  @import url(socialnetwork/social-networck.css);
  @import url(logo/logo.css);
 footer{
- 	max-width: 1410px;
- 	min-height: 100px;
+ 	width: 1410px;
+ 	height: 100px;
  	background-color:  #393530;
  	display: flex;
  	flex-direction: row;
  }
 @media screen and (max-width: 640px) {
  footer{
-  max-width: 640px;
+  width: 640px;
+  height: 80px;
  }
+  .copyright .logo{
+  	display: none;
+  }
 }
