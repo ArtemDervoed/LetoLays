@@ -7,5 +7,8 @@
 	background-image: url(peopleonbeach.jpg);
  }
  @media screen and (max-width: 640px) {
-
+.row-content:nth-child(3) .block-content:nth-child(1){
+	background-position: -40px 0;
+	
+ }
 }

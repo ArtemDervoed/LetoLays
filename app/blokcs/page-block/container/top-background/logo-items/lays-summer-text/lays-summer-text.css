@@ -1,12 +1,13 @@
  .lays-summer{
- 	position: relative;
  	height: 200px;
  	width:350px;
-	right: 550px;
-	top:180px;
+ 	margin: 0;
  	font-size: 80px;
  	font-family:GothaProMed; 
  	color:red;
+ 	position: relative;
+ 	top: 380px;
+ 	right: 570px;
  }
 .lays-summer::first-line{
 	letter-spacing:12px;
@@ -29,12 +30,8 @@
  }
  @media screen and (max-width: 640px) {
 .lays-summer{
- 	width: 400px;
-	top:-120px;
-	margin-left:150px; 
- 	
- }
- .with-lays{
- 	width: 400px;
+ 	top: 50px;
+ 	right: 450px;
+ 	font-size: 79px;
  }
 }

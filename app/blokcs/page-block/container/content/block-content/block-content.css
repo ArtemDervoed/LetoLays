@@ -15,9 +15,9 @@
  	height: 705px;
  	display: flex;
  	flex-direction: row;
+ 	margin: 0;
  }
  .block-content{
- 	margin:0;
  	position: relative;
  	width: 705px;
  	height: 705px;
@@ -31,8 +31,12 @@
   flex-direction: column;
  }
   .block-content{
-  margin-top: 10px;
+  margin-top: 0px;
    width: 640px;
     height: 640px;
+  }
+  .row-content:nth-child(3){
+  	flex-direction: column-reverse;
+
   }
 }
