@@ -5,9 +5,7 @@
 .sub-row-content{
  	display: flex;
  	flex-direction: row;
- 	position: relative;
- 	width: 705px;
-    margin-left: 30px;
+     padding-left: 30px;
     margin-bottom: 5px;
     margin-top: 10px;
  }
@@ -27,12 +25,13 @@
  	height: 180px;
  	margin: 5px;
  }
- .sub-row-content{
-height: 180px;
-width: 640px;
-
-padding-top: 20px;
- }
+.sub-row-content {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    margin-bottom: 5px;
+    /* margin-top: 10px; */
+}
  img{
 	width: 180px;
  	height: 180px;

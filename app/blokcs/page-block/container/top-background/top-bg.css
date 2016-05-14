@@ -1,5 +1,7 @@
 @import url(../top-background/logo-items/animated.css);
 .top-background{
+	display: flex;
+	flex-direction: column;
  	width: 1410px;
  	height:645px;
 	background-image: url(top-backround.jpg);	
@@ -9,6 +11,7 @@
  }
  @media screen and (max-width: 640px) {
 .top-background{
+	flex-direction: column-reverse;
     width: 640px;
     background-image: url(top-backround-mobile.jpg);	
     height: 1110px;

@@ -23,7 +23,8 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
  .social-network{
-	height: 275px;
+	height: 200px;
+    margin-top: -50px;
  }
 .fa{ 
 	color: blue;
@@ -59,16 +60,49 @@
 	font-family: GothaProBol;
 	font-size: 40px;
 	padding-left:100px;
-	margin-top: -70px;
+	margin-top: -20px;
 }
 
 .load-text span{
 font-family: GothaProLig;
 background-color:white;
 color: red; 
+}
+.empty-elips:nth-child(1){
+	height: 55px;
+	width: 55px;
+	border-radius: 100%;
+	position: relative;
+	background-color: #fff;
+	left: 640px;
+	top:90px;
+}
+.empty-elips:nth-child(2){
+	content: '';
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	position: relative;
+	background-color: #fff;
+	left: 545px;
+	top:10px;
 
 }
+.empty-elips:nth-child(3){
+	content: '';
+	height: 35px;
+	width: 35px;
+	border-radius: 100%;
+	position: relative;
+	background-color: #fff;
+	left: 585px;
+	top: 0px;
+}
 @media screen and (max-width: 640px) {
+	.empty-elips{
+		visibility: hidden;
+		display: none;
+	}
 .row-content:nth-child(1) .block-content:nth-child(1) input[type="button"] {
     width: 240px;
     height: 60px;

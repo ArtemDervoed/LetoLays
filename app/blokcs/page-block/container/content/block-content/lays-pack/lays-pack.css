@@ -6,9 +6,21 @@
  	flex-direction: column;
  	color: white;
  }
+ .row-content:nth-child(2) .block-content:nth-child(1)::after{
+    content: '';
+    background-color: red;
+    width: 100px;
+    height: 130px;
+    transform: rotate(45deg);
+    position: relative;
+    left: 651px;
+    bottom: 415px;
+    z-index: 2;
+
+ }
 .header-on-red-block{
 	font-family: GothaProMed;
-	font-size: 44px;
+	font-size: 52px;
 	margin-left:330px;
 	margin-top:180px;  
 }
@@ -16,7 +28,7 @@
 	font-family: GothaProLig;
 	font-size: 18px;
 	margin-left:90px;
-	margin-top:100px; 
+	margin-top:30px; 
 }
 .row-content:nth-child(2) .block-content:nth-child(1) input[type="button"]{
 	width:250px ;
@@ -35,6 +47,11 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 640px) {
+.row-content:nth-child(2) .block-content:nth-child(1)::after{
+	 visibility: hidden;
+    width: 0;
+    height: 0;
+    }
 .row-content:nth-child(2) .block-content:nth-child(1) input[type="button"]{
 	width:240px ;
 	height:60px;

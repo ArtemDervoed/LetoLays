@@ -3,21 +3,21 @@
 @import url(../logo-items/prize-animation/prize-animated.css);
 @import url(../logo-items/lays-summer-text/lays-summer-text.css);
 .block{
-	position: relative;
-	background-color: white;
-	height: 125px;
-	width:125px;
-	border-radius: 100%;
-	margin-right: 60px;
-	top: 50px;
+    position: relative;
+    background-color: white;
+    height: 125px;
+    width: 125px;
+    border-radius: 100%;
+    margin-right: -80px;
+    top: 50px;
  }
  .caption{
- 	width: 150px;
- 	text-align: center;
- 	right: 10px;
- 	font-family:GothaProLig; 
- 	position: relative;
- 	top: 120px;
+     width: 141px;
+    text-align: center;
+    right: 50px;
+    font-family: GothaProLig;
+    position: relative;
+    top: 170px
  }
  .red{
  	color: red;
@@ -26,9 +26,12 @@
  	display: flex;
  	flex-direction: row;
  	margin-left:100px;
+    height: 270px;
  }
  @media screen and (max-width: 640px) {
-.block{
-	top: 300px;
- }
+   .logo-items{ display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    height: 860px;
+}
 }

@@ -1,3 +1,31 @@
+.heart-animation:nth-child(1){
+position: relative;
+    top: 30px;
+    left: 40px;
+    width: 55px;
+    height: 72px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin: 0;
+    border-top-right-radius: 50% ;
+    border-top-left-radius: 50% ;
+    border-bottom-left-radius: 50% 
+
+}
+.heart-animation:nth-child(2){
+    position: relative;
+    bottom: 43px;
+    left: 28px;
+    right: 10px;
+    width: 55px;
+    height: 73px;
+    background-color: red;
+    transform: rotate(-45deg);
+    margin: 0;
+    border-top-right-radius: 50% ;
+    border-top-left-radius: 50% ;
+    border-bottom-right-radius: 50% ;
+}
 @media screen and (max-width: 640px) {
 
 }

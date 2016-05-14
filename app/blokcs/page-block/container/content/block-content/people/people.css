@@ -5,6 +5,7 @@
  }
   .row-content:nth-child(3) .block-content:nth-child(1){
 	background-image: url(peopleonbeach.jpg);
+	z-index: 1;
  }
  @media screen and (max-width: 640px) {
 .row-content:nth-child(3) .block-content:nth-child(1){
