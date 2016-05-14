@@ -28,6 +28,40 @@
  	margin-left:100px;
     height: 270px;
  }
+ @media screen and (max-width:1400px) {
+   .block{
+    position: relative;
+    background-color: white;
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    margin-right: -80px;
+    top: 50px;
+ }
+ .caption{
+     width: 130px;
+    text-align: center;
+    right: 40px;
+    font-family: GothaProLig;
+    position: relative;
+    top: 160px
+ }
+ .red{
+    color: red;
+ }
+  .logo-items{
+    display: flex;
+    flex-direction: row;
+    margin-left:100px;
+      height: 800px;
+ }
+}
+}
+ @media screen and (max-width: 1400px) {
+   .logo-items{ 
+    height: 860px;
+}
+}
  @media screen and (max-width: 640px) {
    .logo-items{ display: flex;
     flex-direction: row;

@@ -30,6 +30,11 @@
   		font-size: 14px;
   		width: 700px;
   }
+  @media screen and (max-width: 1400px) {
+ .all-rights{
+ 	width: 542px;
+  	}  
+  }  
  @media screen and (max-width: 640px) {
 .hidden-part{
 	visibility: hidden;

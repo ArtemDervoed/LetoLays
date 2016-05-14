@@ -48,6 +48,37 @@ background-color: yellow;
 bottom: 42px;
 left: 20px;
 }
+@media screen and (max-width: 1400px) {
+.insta-animation{
+    width: 53px;
+    height: 53px;
+    top: 29px;
+    left: 29px;
+}
+.elips{
+	width: 32px;
+    height: 32px;
+    top: 12px;
+    left: 12px;
+}
+.glass{
+    width: 6px;
+    height: 1px;
+    bottom: 25px;
+    left: 10px
+}
+.diod{
+    width: 2px;
+    height: 2px;
+    bottom: 26px;
+    left: 42px;
+}
+.button{
+	width: 20px;
+    height: 2px;
+    bottom: 38px;
+    left: 17px;
+}
 @media screen and (max-width: 640px) {
 
 }
