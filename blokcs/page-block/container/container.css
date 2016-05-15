@@ -3,12 +3,19 @@
 @import url(../container/content/footer/footer.css);
 .container{
  	position:relative;
- 	height: 2860px;
- 	width: 1410px;
+ 	width: 1395px;
  	margin-left:150px;
  	box-shadow:-1px 0px 1px 1px rgba(0 ,0 ,0 ,0.2);
  	
  }
+ /*1400px*/
+ @media screen and (max-width: 1400px) {
+ .container{
+    margin-left:150px;
+    max-width: 1250px; 
+    min-height: 580px;
+  }
+}
  @media screen and (max-width: 640px) {
  .container{
     margin-left: 0px;

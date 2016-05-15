@@ -18,8 +18,14 @@ html{
 body{
 	padding: 0;
 	max-width: 1560px;
-	min-height: 2900px;
 	margin: 0  auto;  
+}
+@media screen and (max-width: 1400px) {
+  body{
+    max-width: 1400px;
+    min-height: 2580px;
+  }
+
 }
 @media screen and (max-width: 640px) {
   body{
@@ -28,3 +34,4 @@ body{
   }
 
 }
+

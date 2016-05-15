@@ -9,6 +9,7 @@
  	display: flex;
  	flex-direction: column;
  	width: 1410px;
+
  }
  .row-content{
  	width: 1410px;
@@ -22,8 +23,23 @@
  	width: 705px;
  	height: 705px;
  	background-repeat: no-repeat;
+  
 
  }
+  @media screen and (max-width: 1400px) {
+    .content{
+      width: 1250px;
+   }
+    .row-content{
+    width: 1250px;
+    height: 637px;
+   }
+    .block-content{
+    position: relative;
+    width: 637px;
+    height: 637px;
+   }
+  }
  @media screen and (max-width: 640px) {
  .row-content{
   width: 640px;

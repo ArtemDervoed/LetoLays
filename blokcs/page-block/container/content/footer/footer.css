@@ -7,6 +7,10 @@ footer{
  	display: flex;
  	flex-direction: row;
  }
+ @media screen and (max-width: 1400px) {
+ footer{
+  width: 1250px;
+ }
 @media screen and (max-width: 640px) {
  footer{
   width: 640px;

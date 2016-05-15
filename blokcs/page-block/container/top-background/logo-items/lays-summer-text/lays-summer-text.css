@@ -1,13 +1,12 @@
  .lays-summer{
- 	height: 200px;
- 	width:350px;
- 	margin: 0;
- 	font-size: 80px;
- 	font-family:GothaProMed; 
- 	color:red;
- 	position: relative;
- 	top: 380px;
- 	right: 570px;
+    height: 200px;
+    width: 350px;
+   margin-top: 80px;
+    margin-left: 100px;
+    font-size: 80px;
+    font-family: GothaProMed;
+    color: red;
+    right: -100px;
  }
 .lays-summer::first-line{
 	letter-spacing:12px;
@@ -30,8 +29,13 @@
  }
  @media screen and (max-width: 640px) {
 .lays-summer{
- 	top: 50px;
- 	right: 450px;
- 	font-size: 79px;
- }
+ 	height: 210px;
+    width: 350px;
+    /* margin-top: 80px; */
+    margin-left: 180px;
+    margin-bottom: -33px;
+    font-size: 80px;
+    font-family: GothaProMed;
+    color: red;
+    right: -100px; }
 }

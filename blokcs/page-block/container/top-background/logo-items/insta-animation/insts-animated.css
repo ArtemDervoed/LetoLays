@@ -1,3 +1,84 @@
+.insta-animation{
+	position: relative;
+	width: 60px;
+	height: 60px;
+	background-color: red;
+	border-radius: 25%;
+	top:32px;
+	left:32px;
+}
+.elips{
+position: relative;
+width: 35px;
+height: 35px;
+background-color: blue;
+border-radius:100% ;
+top: 14px;
+left: 14px;
+box-shadow:  
+inset 0px 0px 0px 1px blue, 
+inset 0px 0px 0px 4px green,
+inset 0px 0px 0px 8px red, 
+inset 0px 0px 0px 14px yellow;
+}
+.glass{
+position: relative;
+width: 7px;
+height: 2px;
+background-color: blue;
+box-shadow: 0px 0px 0px 2px yellow;
+bottom: 27px;
+left: 11px;
+}
+.diod{
+	position: relative;
+width: 3px;
+height: 3px;
+background-color: red;
+border-radius:100% ;
+bottom: 30px;
+left: 50px;
+box-shadow: 0px 0px 0px 2px white;
+}
+.button{
+position: relative;
+width: 20px;
+height: 2px;
+background-color: yellow;
+bottom: 42px;
+left: 20px;
+}
+@media screen and (max-width: 1400px) {
+.insta-animation{
+    width: 53px;
+    height: 53px;
+    top: 29px;
+    left: 29px;
+}
+.elips{
+	width: 32px;
+    height: 32px;
+    top: 12px;
+    left: 12px;
+}
+.glass{
+    width: 6px;
+    height: 1px;
+    bottom: 25px;
+    left: 10px
+}
+.diod{
+    width: 2px;
+    height: 2px;
+    bottom: 26px;
+    left: 42px;
+}
+.button{
+	width: 20px;
+    height: 2px;
+    bottom: 38px;
+    left: 17px;
+}
 @media screen and (max-width: 640px) {
 
 }

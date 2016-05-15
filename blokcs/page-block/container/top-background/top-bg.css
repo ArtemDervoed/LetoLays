@@ -1,14 +1,24 @@
 @import url(../top-background/logo-items/animated.css);
 .top-background{
- 	width: 1410px;
+	display: flex;
+	flex-direction: column;
+ 	width: 1395px;
  	height:645px;
 	background-image: url(top-backround.jpg);	
-	background-size:inherit ;
+	background-size: contain;  
 	background-repeat: no-repeat;
 
  }
+ @media screen and (max-width: 1400px) {
+.top-background{
+    width: 1250px;
+    background-image: url(top-backround.jpg);	
+    height: 580px;
+  }
+}
  @media screen and (max-width: 640px) {
 .top-background{
+	flex-direction: column-reverse;
     width: 640px;
     background-image: url(top-backround-mobile.jpg);	
     height: 1110px;

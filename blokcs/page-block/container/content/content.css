@@ -10,8 +10,16 @@
  	display: flex;
  	flex-direction: row;
  }
+ @media screen and (max-width: 1400px) {
+ 	 .content{
+ 	width: 1250px;
+ }
+.row-content{
+ 	width: 1250px;
+ 	height: 637px;
+}
+}
  @media screen and (max-width: 640px) {
-
   .content{
     width: 640px;
     height: 3850px;
