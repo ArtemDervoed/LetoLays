@@ -1,0 +1,30 @@
+@import url("../blokcs/page-block/page-block.css");
+@font-face {
+    font-family:GothaProMed; /* Гарнитура шрифта */
+    src: url(../fonts/GothaProMed.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family:GothaProBol; /* Гарнитура шрифта */
+    src: url(../fonts/GothaProBol.otf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family:GothaProLig; /* Гарнитура шрифта */
+    src: url(../fonts/GothaProLig.otf); /* Путь к файлу со шрифтом */
+   }
+html{
+	overflow-y:scroll  ;
+
+}
+body{
+	padding: 0;
+	max-width: 1560px;
+	min-height: 2900px;
+	margin: 0  auto;  
+}
+@media screen and (max-width: 640px) {
+  body{
+    max-width: 640px;
+    min-height: 5000px;
+  }
+
+}

@@ -1,0 +1,10 @@
+@import url(../page-block/header/main-header.css);
+@import url(../page-block/container/container.css);
+main{
+	width: 1560px;
+}
+@media screen and (max-width: 640px) {
+main{
+width: 640px;
+}
+}

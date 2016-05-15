@@ -1,0 +1,58 @@
+.row-content:nth-child(3) .block-content:nth-child(2){
+ 	display: flex;
+ 	flex-direction: column;
+	background-image:url(lays.png), url(linkonmap.png), url(map.png),url(areaundermap.jpg);
+	background-repeat: no-repeat;
+	background-size: 100px 100px,auto,auto,auto;
+	background-position: 
+	316px 100px,
+	290px 75px,
+	40px 210px, 
+	0 0;
+ }
+ .row-content:nth-child(3) .block-content:nth-child(2) input[type="button"]{
+	width:250px ;
+	height:70px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid white;
+	position: relative;
+	margin-top: 50px;
+	margin-left:230px; 
+	color: white;
+	font-size: 24px;
+ }
+.row-content:nth-child(3) .block-content:nth-child(2)  input[type="button"]:hover{
+    transition: all;
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.row-content:nth-child(3) .block-content:nth-child(2) .summer-text{
+ 	position: relative;
+ 	font-family: GothaProLig;
+ 	font-size: 48px;
+ 	padding-left: 200px;
+ 	margin-top:480px; 
+ }
+ @media screen and (max-width: 640px) {
+ .row-content:nth-child(3) .block-content:nth-child(2) input[type="button"]{
+	width:240px ;
+	height:60px;
+	margin-top: 0px;
+	margin-left:200px; 
+	font-size: 22px;
+ }
+ .row-content:nth-child(3) .block-content:nth-child(2){
+	background-size: 100px 100px,auto,auto,auto;
+	background-position: 
+	286px 90px,
+	260px 65px,
+	10px 200px, 
+	0 0;
+ }
+ .row-content:nth-child(3) .block-content:nth-child(2) .summer-text{
+ 	margin-top: 460px;
+ 	margin-bottom:10px; 
+	padding-left: 170px;		
+ }
+}
