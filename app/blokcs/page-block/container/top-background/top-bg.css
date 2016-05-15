@@ -2,7 +2,7 @@
 .top-background{
 	display: flex;
 	flex-direction: column;
- 	width: 1395px;
+ 	width: 1410px;
  	height:645px;
 	background-image: url(top-backround.jpg);	
 	background-size: contain;  
