@@ -22,9 +22,39 @@
  	position: relative;
  	width: 705px;
  	height: 705px;
- 	background-repeat: no-repeat;
-  
+ 	background-repeat: no-repeat; 
+ }
+ .left-animation{
+  position: relative;
+    animation-name: left;
+    animation-duration: 1.5s;
+}
 
+@keyframes left {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+ }
+ .right-animation{
+  position: relative;
+    animation-name: right;
+    animation-duration: 1.5s;
+}
+
+@keyframes right {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
  }
   @media screen and (max-width: 1400px) {
     .content{

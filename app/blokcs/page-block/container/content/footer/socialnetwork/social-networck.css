@@ -5,6 +5,11 @@
  .socialnetwork{
  	width: 100px;
  	height: inherit;
+ 	opacity: 0.8;
+ }
+  .socialnetwork:hover{
+  	transition-duration: 0.5s;
+ 	opacity: 1;
  }
 @media screen and (max-width: 640px) {
  .socialnetwork{

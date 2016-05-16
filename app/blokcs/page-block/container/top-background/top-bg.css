@@ -5,7 +5,7 @@
  	width: 1410px;
  	height:645px;
 	background-image: url(top-backround.jpg);	
-	background-size: contain;  
+	background-size: 100%;  
 	background-repeat: no-repeat;
 
  }
@@ -14,6 +14,7 @@
     width: 1250px;
     background-image: url(top-backround.jpg);	
     height: 580px;
+   
   }
 }
  @media screen and (max-width: 640px) {

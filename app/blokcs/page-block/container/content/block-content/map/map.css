@@ -9,7 +9,6 @@
 	290px 75px,
 	40px 210px, 
 	0 0;
-		
  }
  .row-content:nth-child(3) .block-content:nth-child(2)::before{
     content: '';

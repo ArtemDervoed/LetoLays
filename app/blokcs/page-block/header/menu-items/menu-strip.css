@@ -19,6 +19,9 @@
     transition-duration: 1s;
     background-color: white;
   }
+  .empty:hover{
+      background-color: #f6f6f6;
+  }
   @media screen and (max-width: 640px) {
 
   .item{

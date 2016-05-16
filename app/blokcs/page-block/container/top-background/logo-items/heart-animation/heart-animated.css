@@ -4,7 +4,7 @@ position: relative;
     left: 40px;
     width: 55px;
     height: 72px;
-    background-color: red;
+   background: linear-gradient(0deg, #f74222 0%,#ef5743 39%,#f40000 40%,#f40000 40%,#f40000 100%);
     transform: rotate(45deg);
     margin: 0;
     border-top-right-radius: 50% ;
@@ -19,7 +19,7 @@ position: relative;
     right: 10px;
     width: 55px;
     height: 73px;
-    background-color: red;
+    background: linear-gradient(-225deg, #f74222 0%,#ef5743 58%,#f40000 58%,#f40000 58%,#f40000 100%); 
     transform: rotate(-45deg);
     margin: 0;
     border-top-right-radius: 50% ;
@@ -29,7 +29,7 @@ position: relative;
 @media screen and (max-width: 1400px) {
 .heart-animation:nth-child(1){
     top: 20px;
-    left: 35px;
+    left: 37px;
     width: 53px;
     height: 67px;
 }
@@ -41,5 +41,14 @@ position: relative;
 }
 }
 @media screen and (max-width: 640px) {
+.heart-animation:nth-child(2){
+   
+    background: linear-gradient(-225deg, #f74222 0%,#ef5743 58%,#f40000 58%,#f40000 58%,#f40000 100%); 
 
+}
+.heart-animation:nth-child(1){
+   
+   left:37px;
+background: linear-gradient(0deg, #f74222 0%,#ef5743 39%,#f40000 40%,#f40000 40%,#f40000 100%);
+}
 }
