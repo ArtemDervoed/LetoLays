@@ -4,9 +4,8 @@ $(document).ready(function(){
 	menu[0].style.visibility='hidden';
     $('.switcher').click(function(){
     	if(menu[0].style.visibility==='hidden'){
-    	 menu[0].style.visibility='visible';
+    	menu[0].style.visibility='visible';
     	menuToggle(true);
-    	 
     	} else {
     		menu[0].style.visibility='hidden'
     		menuToggle(false);
@@ -25,6 +24,12 @@ if(mode===true){
     	 $('.first-line').removeClass('first-line'); 
     	 $('.second-line').removeClass('second-line'); 
     	 $('.third-line').removeClass('third-line'); 
+    	 $('.insta').addClass('left-animation'); 
+    	 $('.prize').addClass('right-animation'); 
+    	 $('.map').addClass('left-animation'); 
+    	 $('.botton').addClass('right-animation'); 
+    	 
+
 	} else {
 		 $('.first-line-rotate').addClass('first-line'); 
     	 $('.second-line-hidden').addClass('second-line'); 
@@ -32,5 +37,9 @@ if(mode===true){
     	 $('.first-line-rotate').removeClass('first-line-rotate'); 
     	 $('.second-line-hidden').removeClass('second-line-hidden'); 
     	 $('.third-line-rotate').removeClass('third-line-rotate'); 
+    	 $('.insta').removeClass('left-animation'); 
+    	 $('.prize').removeClass('right-animation'); 
+    	 $('.map').removeClass('left-animation'); 
+    	 $('.botton').removeClass('right-animation');
 	}
 }
