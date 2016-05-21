@@ -40,15 +40,73 @@ position: relative;
     height: 71px
 }
 }
-@media screen and (max-width: 640px) {
-.heart-animation:nth-child(2){
-   
-    background: linear-gradient(-225deg, #f74222 0%,#ef5743 58%,#f40000 58%,#f40000 58%,#f40000 100%); 
-
-}
+ @media screen and (max-width: 1300px) {
 .heart-animation:nth-child(1){
-   
-   left:37px;
-background: linear-gradient(0deg, #f74222 0%,#ef5743 39%,#f40000 40%,#f40000 40%,#f40000 100%);
+    top: 19px;
+    left: 32px;
+    width: 40px;
+    height: 57px;
+}
+.heart-animation:nth-child(2){
+    bottom: 40px;
+    left: 18px;
+    width: 42px;
+    height: 57px
+}
+}
+ @media screen and (max-width: 1200px) {
+.heart-animation:nth-child(1){
+    top: 23px;
+    left: 33px;
+    width: 33px;
+    height: 47px;
+}
+.heart-animation:nth-child(2){
+    bottom: 24px;
+    left: 23px;
+    width: 35px;
+    height: 46px;
+}
+}
+ @media screen and (max-width: 1000px) {
+.heart-animation:nth-child(1){
+       top: 13px;
+    left: 21px;
+    width: 25px;
+    height: 32px;
+}
+.heart-animation:nth-child(2){
+        bottom: 20px;
+    left: 15px;
+    width: 24px;
+    height: 32px
+}
+}
+ @media screen and (max-width: 750px) {
+.heart-animation:nth-child(1){
+      top: 9px;
+    left: 14px;
+    width: 17px;
+    height: 21px;
+}
+.heart-animation:nth-child(2){
+        bottom: 12px;
+    left: 10px;
+    width: 16px;
+    height: 20px;
+}
+}
+@media screen and (max-width: 640px) {
+.heart-animation:nth-child(1){
+    top: 20px;
+    left: 37px;
+    width: 53px;
+    height: 67px;
+}
+.heart-animation:nth-child(2){
+    bottom: 48px;
+    left: 23px;
+    width: 53px;
+    height: 71px
 }
 }

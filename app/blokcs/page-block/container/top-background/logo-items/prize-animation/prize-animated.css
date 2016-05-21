@@ -37,7 +37,106 @@
 	left:0px;
 }
 }
+@media screen and (max-width: 1300px) {
+.box{
+    width: 44px;
+    height: 22px;
+       top: 58px;
+    left: 28px;
+	
+}
+.head-box{
+    width: 53px;
+    height: 17px;
+    top: 17px;
+    left: 23px;
+	
+}
+.band{
+	    bottom: 0px;
+    left: 45px;
+    width: 8px;
+    height: 41px;
+}
+}
+ @media screen and (max-width: 1200px) {
+.prize-animation {
+    position: relative;
+    top: -11px;
+    left: -4px;
+}
+}
+ @media screen and (max-width: 1000px) {
+.box{
+	    width: 29px;
+    height: 18px;
+    top: 39px;
+    left: 19px;
+	
+}
+.head-box{
+    width: 36px;
+    height: 15px;
+    top: 5px;
+    left: 16px
+	
+}
+.band{
+bottom: 10px;
+    left: 32px;
+    width: 8px;
+    height: 34px;
+}
+}
+ @media screen and (max-width: 750px) {
+.box{
+    width: 20px;
+    height: 9px;
+    top: 32px;
+    left: 14px;
+}
+.head-box{
+	
+    width: 24px;
+    height: 10px;
+    top: 11px;
+    left: 12px
+	
+}
+.band{
+	    bottom: 0px;
+    left: 22px;
+    width: 5px;
+    height: 22px;
+}
+}
 @media screen and (max-width: 640px) {
+	.box{
+	
+	width: 52px;
+	height: 26px;
+	
+	top:60px;
+	left:30px;
+	
+}
+.head-box{
+	
+	width: 60px;
+	height: 25px;
+	
+	top:7px;
+	left:26px;
+	
+}
+.band{
+	
+	bottom: 18px;
+    left: 52px;
+	width: 8px;
+	height: 53px;
+	
+}
 .prize-animation{
 	position: relative;
 	top:-6px;

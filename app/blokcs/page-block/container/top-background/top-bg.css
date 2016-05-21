@@ -2,19 +2,36 @@
 .top-background{
 	display: flex;
 	flex-direction: column;
- 	width: 1410px;
- 	height:645px;
+ 	width: 100%;
+  height: 625px;
 	background-image: url(top-backround.jpg);	
-	background-size: 100%;  
+	background-size: 100% 100%;  
 	background-repeat: no-repeat;
 
  }
  @media screen and (max-width: 1400px) {
 .top-background{
-    width: 1250px;
-    background-image: url(top-backround.jpg);	
     height: 580px;
-   
+  }
+}
+ @media screen and (max-width: 1300px) {
+.top-background{
+    height: 500px;
+  }
+}
+ @media screen and (max-width: 1200px) {
+.top-background{
+    height: 450px;
+  }
+}
+ @media screen and (max-width: 1000px) {
+.top-background{
+    height: 400px;
+  }
+}
+ @media screen and (max-width: 750px) {
+.top-background{
+    height: 350px;
   }
 }
  @media screen and (max-width: 640px) {
@@ -22,6 +39,8 @@
 	flex-direction: column-reverse;
     width: 640px;
     background-image: url(top-backround-mobile.jpg);	
+        background-position-y: 150px;
     height: 1110px;
+        padding-top: 150px;
   }
 }

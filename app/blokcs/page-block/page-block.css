@@ -1,15 +1,17 @@
 @import url(../page-block/header/main-header.css);
 @import url(../page-block/container/container.css);
 main{
-	width: 1560px;
+	max-width: inherit;
 }
+/*
 @media screen and (max-width: 1400px) {
 	main{
-		width: 1400px;
+		max-width: 1400px;
 	}
 }
+*/
 @media screen and (max-width: 640px) {
 	main{
-		width: 640px;
+		max-width: 640px;
 	}
 }

@@ -8,72 +8,57 @@
   .content{
  	display: flex;
  	flex-direction: column;
- 	width: 1410px;
+ 	width: 100%;
 
  }
  .row-content{
- 	width: 1410px;
- 	height: 705px;
+ 	width: 100%;
  	display: flex;
  	flex-direction: row;
  	margin: 0;
+  
  }
  .block-content{
  	position: relative;
- 	width: 705px;
- 	height: 705px;
+ 	width:50%;
+  height: initial;
  	background-repeat: no-repeat; 
  }
- .left-animation{
-  position: relative;
-    animation-name: left;
-    animation-duration: 1.5s;
-}
 
-@keyframes left {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0); 
-        opacity: 1;
-    }
+@media screen and (max-width: 1400px) {
+ .row-content{
+  height: 635px;
  }
- .right-animation{
-  position: relative;
-    animation-name: right;
-    animation-duration: 1.5s;
 }
-
-@keyframes right {
-    0% {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0); 
-        opacity: 1;
-    }
+ @media screen and (max-width: 1300px) {
+ .row-content{
+  height: 600px;
  }
-  @media screen and (max-width: 1400px) {
-    .content{
-      width: 1250px;
-   }
-    .row-content{
-    width: 1250px;
-    height: 637px;
-   }
-    .block-content{
-    position: relative;
-    width: 637px;
-    height: 637px;
-   }
-  }
+  
+}
+ @media screen and (max-width: 1200px) {
+ .row-content{
+ height: 565px;
+ }
+ 
+}
+ @media screen and (max-width: 1000px) {
+ .row-content{
+ height: 400px;
+ }
+ 
+}
+ @media screen and (max-width: 750px) {
+ .row-content{
+  height: 350px;
+  
+ }
+ 
+}
  @media screen and (max-width: 640px) {
  .row-content{
   width: 640px;
-  height: 1280px;
+  height: initial;
   flex-direction: column;
  }
   .block-content{

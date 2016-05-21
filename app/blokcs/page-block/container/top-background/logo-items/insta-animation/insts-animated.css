@@ -77,6 +77,124 @@ left: 20px;
     bottom: 38px;
     left: 17px;
 }
+@media screen and (max-width: 1300px) {
+    .insta-animation{
+        width: 48px;
+    height: 47px;
+    top: 23px;
+    left: 22px;
+}
+.elips{
+      width: 28px;
+    height: 28px;
+    top: 12px;
+    left: 10px;
+}
+.glass{
+      width: 6px;
+    height: 1px;
+    bottom: 22px;
+    left: 10px;
+}
+.diod{
+    width: 2px;
+    height: 2px;
+    bottom: 26px;
+    left: 38px;
+}
+.button{
+       width: 20px;
+    height: 2px;
+    bottom: 35px;
+    left: 17px;
+}
+ @media screen and (max-width: 1200px) {
+.insta-animation{
+        width: 48px;
+    height: 47px;
+    top: 23px;
+    left: 22px;
+}
+.elips{
+      width: 28px;
+    height: 28px;
+    top: 12px;
+    left: 10px;
+}
+.glass{
+      width: 6px;
+    height: 1px;
+    bottom: 22px;
+    left: 10px;
+}
+.diod{
+    width: 2px;
+    height: 2px;
+    bottom: 26px;
+    left: 38px;
+}
+.button{
+       width: 20px;
+    height: 2px;
+    bottom: 35px;
+    left: 17px;
+}
+}
+ @media screen and (max-width: 1000px) {
+.insta-animation{
+       width: 35px;
+    height: 35px;
+    top: 14px;
+    left: 14px;
+}
+.elips{
+       width: 20px;
+    height: 20px;
+    top: 9px;
+    left: 7px;
+}
+.glass{
+      width: 6px;
+    height: 1px;
+    bottom: 17px;
+    left: 6px;
+}
+.diod{
+        width: 2px;
+    height: 2px;
+    bottom: 18px;
+    left: 27px;
+}
+.button{
+    width: 20px;
+    height: 2px;
+    bottom: 28px;
+    left: 7px;
+}
+}
+ @media screen and (max-width: 750px) {
+.insta-animation{
+  width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 12px;
+}
+.elips{
+        width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 6px;
+}
+.glass{
+    display: none;
+}
+.diod{
+   display: none;;
+}
+.button{
+ display: none;
+}
+}
 @media screen and (max-width: 640px) {
 .insta-animation{
     width: 53px;

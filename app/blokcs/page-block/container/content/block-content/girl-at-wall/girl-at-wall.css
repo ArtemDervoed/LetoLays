@@ -4,7 +4,7 @@
 	background-image: url(girl.jpg);
 	display: flex;
 	flex-direction: column;
-	background-size: 100% 100%;
+	background-size: cover ;
  }
  .row-content:nth-child(1) .block-content:nth-child(1) input[type="button"]{
 	width:250px ;
@@ -98,7 +98,7 @@ color: red;
 	left: 585px;
 	top: 0px;
 }
-@media screen and (max-width: 1400px) {
+/*@media screen and (max-width: 1400px) {
 	 .row-content:nth-child(1) .block-content:nth-child(1){
 	background-image: url(girl.jpg);
 	background-size: 100% 100%;
@@ -126,6 +126,82 @@ color: red;
     height: 65px;
 }
 }
+*/
+@media screen and (max-width: 1400px) {
+.row-content:nth-child(1) .block-content:nth-child(1) input[type="button"] {
+    width: 220px;
+    height: 60px;
+}
+.load-text {
+      font-size: 40px;
+    padding-left: 80px;
+    margin-bottom: -6px;
+}
+}
+ @media screen and (max-width: 1300px) {
+.row-content:nth-child(1) .block-content:nth-child(1) input[type="button"] {
+
+}
+.load-text {
+    font-size: 30px;
+    padding-left: 100px;
+    margin-bottom: 6px;
+    padding-top: 20px;
+}}
+ @media screen and (max-width: 1200px) {
+.row-content:nth-child(1) .block-content:nth-child(1) input[type="button"] {
+        width: 230px;
+    height: 55px;
+}
+.load-text {
+    font-size: 30px;
+    padding-left: 102px;
+    margin-bottom: 0;
+}
+.social-network {
+    height: 190px;
+    margin-top: -135px;
+}
+ @media screen and (max-width: 1000px) {
+.fa{
+	visibility: hidden;
+}
+.arrow{
+	visibility: hidden;
+}
+.load-text {
+    font-family: GothaProBol;
+    font-size: 30px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+}
+.social-network {
+    height: 0;
+    margin-top: -132px;
+}
+.row-content:nth-child(1) .block-content:nth-child(1) input[type="button"] {
+    margin-left: 45px;
+        width: 180px;
+    height: 50px;
+}
+}
+ @media screen and (max-width: 750px) {
+.row-content:nth-child(1) .block-content:nth-child(1) input[type="button"] {
+       width: 165px;
+    height: 75px;
+    margin-left: 24px;
+    margin-bottom: 44px;
+    }
+.load-text {
+    font-size: 30px;
+    padding-left: 30px;
+    margin-bottom: -10px;
+}
+.social-network {
+    height: 0;
+    margin-top: -70px;
+}
 @media screen and (max-width: 640px) {
 .social-network {
     height: 215px;
@@ -135,6 +211,12 @@ color: red;
 		visibility: hidden;
 		display: none;
 	}
+	.fa{
+	visibility: visible;
+}
+.arrow{
+	visibility: visible;
+}
 .row-content:nth-child(1) .block-content:nth-child(1) input[type="button"] {
     width: 240px;
     height: 60px;
@@ -146,9 +228,12 @@ color: red;
 	}
 	.load-text{
 	padding-left:50px; 
+	font-size: 40px;
+
 	}
 		 .row-content:nth-child(1) .block-content:nth-child(1){
 	background-image: url(girl.jpg);
 	background-size: 100% 100%;
+	 font-family: GothaProBol;
  }
 }
