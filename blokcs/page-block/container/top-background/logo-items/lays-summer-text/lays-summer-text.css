@@ -1,12 +1,13 @@
  .lays-summer{
     height: 200px;
     width: 350px;
-   margin-top: 80px;
-    margin-left: 100px;
+    margin-top: 80px;
+    margin-left: 65px;
     font-size: 80px;
     font-family: GothaProMed;
-    color: red;
+    color: #FF4C4C;
     right: -100px;
+    margin-bottom: 5%;
  }
 .lays-summer::first-line{
 	letter-spacing:12px;
@@ -14,11 +15,17 @@
  .with-lays{
 	font-family:GothaProMed;
 	position: relative;
- 	bottom: 60px;
+ 	bottom: 51px;
  	word-spacing:-2px;
+}
+.summer-text{
+    position: relative;
+    bottom: 0px;
 }
  .with-lays::first-letter{
  	font-family: GothaProLig;
+    position: relative;
+    top: 0px;
  }
  .better{
 	font-family:GothaProLig; 
@@ -27,6 +34,79 @@
  	bottom: 40px;
  	letter-spacing:3px;
  }
+ @media screen and (max-width: 1400px) {
+.lays-summer{
+    font-size: 74px;
+}
+  .better{
+    font-size: 40px; 
+  }
+  .summer-text{
+    position: relative;
+    bottom: 0px;
+}
+}
+ @media screen and (max-width: 1300px) {
+.lays-summer{
+    font-size: 65px;
+}
+.better{
+    font-size: 35px; 
+  }
+  .summer-text{
+    position: relative;
+    bottom: 5px;
+}
+}
+ @media screen and (max-width: 1200px) {
+.lays-summer{
+    font-size: 50px;
+}
+.better{
+    font-size: 30px; 
+  }
+  .summer-text{
+    position: relative;
+    bottom: 15px;
+}
+.with-lays::first-letter{
+    font-family: GothaProLig;
+    position: relative;
+    top: 5px;
+ }
+}
+ @media screen and (max-width: 1000px) {
+.lays-summer{
+    font-size: 35px;
+}
+.better{
+    font-size: 25px; 
+  }
+  .summer-text{
+    position: relative;
+    bottom: 25px;
+}
+.with-lays::first-letter{
+    position: relative;
+    top: 10px;
+ }
+}
+ @media screen and (max-width: 750px) {
+.lays-summer{
+    font-size: 30px;
+}
+.summer-text{
+    position: relative;
+    bottom: 25px;
+}
+.better{
+    font-size: 15px; 
+  }
+.with-lays::first-letter{
+    position: relative;
+    top: 10px;
+ }
+}
  @media screen and (max-width: 640px) {
 .lays-summer{
  	height: 210px;
@@ -37,5 +117,9 @@
     font-size: 80px;
     font-family: GothaProMed;
     color: red;
-    right: -100px; }
+    right: -100px; 
+}
+.better{
+    font-size: 51px;
+ }
 }

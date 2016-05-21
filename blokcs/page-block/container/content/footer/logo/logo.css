@@ -5,6 +5,7 @@
 	background-repeat:  no-repeat;
  	width: 150px;
  	height: 100px;
+    z-index: 2;
  }
   .copyright-data{
 	color: #9b9a98;
@@ -13,28 +14,53 @@
 	margin-left:20px; 
 	margin-top: 30px;
 	font-family: GothaProLig;
-	
+	   z-index: 2;
  }
  .hidden-part{
   		font-family: GothaProLig;
   		color: #9b9a98;
   		margin-top:30px; 
   		font-size: 14px;
-  		width: 125px;
-
+  		width: 160px;
+  z-index: 2;
   }
  .all-rights{
   	font-family: GothaProLig;
   		color: #9b9a98;
   		margin-top:30px; 
   		font-size: 14px;
-  		width: 700px;
+  		width: 60%;
+        z-index: 2;
   }
-  @media screen and (max-width: 1400px) {
+ /* @media screen and (max-width: 1400px) {
  .all-rights{
  	width: 542px;
   	}  
   }  
+  */
+  @media screen and (max-width: 1400px) {
+
+}
+ @media screen and (max-width: 1300px) {
+
+}
+ @media screen and (max-width: 1200px) {
+.all-rights{
+    font-family: GothaProLig;
+      width: 325px;
+  }
+}
+ @media screen and (max-width: 1000px) {
+
+  .hidden-part{
+  visibility: hidden;
+  width: 5px;
+  }
+
+}
+ @media screen and (max-width: 750px) {
+
+}
  @media screen and (max-width: 640px) {
 .hidden-part{
 	visibility: hidden;

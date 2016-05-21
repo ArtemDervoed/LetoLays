@@ -23,10 +23,44 @@ body{
 @media screen and (max-width: 1400px) {
   body{
     max-width: 1400px;
-    min-height: 2580px;
   }
 
 }
+ .left-animation{
+    position: relative;
+    animation-name: left;
+    animation-duration: 1.5s;
+}
+
+@keyframes left {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+ }
+ .right-animation{
+  
+  position: relative;
+    animation-name: right;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes right {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+ }
 @media screen and (max-width: 640px) {
   body{
     max-width: 640px;
