@@ -1,10 +1,10 @@
 
 .copyright .logo{
  	background-image: url(lays.png);
-	background-size: 80px, 93px;
+	background-size: 40%;
 	background-repeat:  no-repeat;
- 	width: 150px;
- 	height: 100px;
+ 	width: 120px;
+ 	height: 70px;
     z-index: 2;
  }
   .copyright-data{

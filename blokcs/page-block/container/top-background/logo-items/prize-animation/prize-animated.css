@@ -1,7 +1,7 @@
 .prize-animation{
 	position: relative;
-	top:5px;
-	left:8px;
+	top: 0px;
+    left: 4px;
 }
 .box{
 	position: relative;
@@ -33,8 +33,8 @@
 @media screen and (max-width: 1400px) {
 .prize-animation{
 	position: relative;
-	top:-3px;
-	left:0px;
+	top: -15px;
+    left: -4px;
 }
 }
 @media screen and (max-width: 1300px) {
