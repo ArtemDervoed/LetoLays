@@ -39,7 +39,7 @@
 	flex-direction: column-reverse;
     width: 640px;
     background-image: url(top-backround-mobile.jpg);	
-        background-position-y: 150px;
+        background-position-y: 120px;
     height: 1110px;
         padding-top: 150px;
   }

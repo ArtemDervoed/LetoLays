@@ -41,8 +41,8 @@ display:none;
 	position:fixed;
 	height:inherit;
 	width:100px;
-	left:85%;
-	padding-top:50px;
+	left:80%;
+	padding-top:25px;
 	}
 	.first-line{
 		 transform: rotate(45deg) translateY(34px)translateX(9px);

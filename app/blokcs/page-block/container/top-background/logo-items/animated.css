@@ -2,6 +2,16 @@
 @import url(../logo-items/insta-animation/insts-animated.css);
 @import url(../logo-items/prize-animation/prize-animated.css);
 @import url(../logo-items/lays-summer-text/lays-summer-text.css);
+@keyframes scale-block {
+
+    from {
+        transform:scale(0);
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+ }
 .block{
     position: relative;
     background-color: white;
@@ -10,14 +20,39 @@
     border-radius: 100%;
     margin-right: -80px;
     top: 50px;
+    opacity: 0;
+    animation-name: scale-block;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
  }
+  .block:nth-child(3){
+  animation-name: scale-block;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+
+ }
+ .block:nth-child(1){
+  animation-name: scale-block;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+ }
+
  .caption{
      width: 141px;
     text-align: center;
     right: 50px;
     font-family: GothaProLig;
     position: relative;
-    top: 170px
+    top: 170px;
+     opacity: 0;
+    animation-name: scale-block;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+     animation-delay: 3s
+   
  }
  .red{
  	color: red;
