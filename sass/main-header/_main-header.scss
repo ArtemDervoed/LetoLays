@@ -1,0 +1,8 @@
+$header-width : 150px;
+.main-header{
+	position:fixed;
+	width:$header-width;
+	height: 100%;
+	max-height:2903px;
+	background-color: #f6f6f6;
+}

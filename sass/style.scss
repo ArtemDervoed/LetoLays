@@ -1,0 +1,20 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "main-header/_main-header";
+@import "container/_container";
+@import "top-background/_top-background";
+@import "footer/_footer";
+@import "main-content/_main-content";
+$font-stack:    Helvetica, sans-serif;
+ $page-height : 132.5vw;
+body {
+  font: 100% $font-stack;
+  height: initial;
+  max-height:2903px;
+  max-width:1560px;
+  margin : 0 auto;
+}
