@@ -1,0 +1,9 @@
+$top-bg-height: 35.3vw;
+.container{
+	.top-background{
+		width:inherit;
+		height:$top-bg-height;
+		max-height:653px;
+		background-color: rgb(99, 102, 249);
+	}	
+}
