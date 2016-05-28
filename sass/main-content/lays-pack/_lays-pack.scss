@@ -1,5 +1,11 @@
+@import "main-content/lays-pack/button/button";
 .content-strip--red-block{
+	$size-pack : 14vw;
 	width:50%;
 	height:inherit;
 	background-color: red;
+	background-image: url(../img/lays-pack/layspack.png);
+	background-repeat: no-repeat;
+	background-size: $size-pack;
+    background-position: 4vw 10vw;
 }

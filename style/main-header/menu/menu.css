@@ -1,0 +1,80 @@
+/* line 1, ../../../sass/main-header/menu/_menu_logo/_logo.scss */
+._logo {
+  height: 160px;
+  width: inherit;
+  background-image: url(../img/logo/lays.png);
+  background-repeat: no-repeat;
+  background-size: 85px;
+  background-position: 35px 35px;
+}
+
+/* line 9, ../../../sass/main-header/menu/_menu_logo/_logo.scss */
+.leto-lays-text {
+  position: relative;
+  top: 112px;
+  left: 38px;
+}
+
+/* line 1, ../../../sass/main-header/menu/_menu_insta/_insta.scss */
+._insta {
+  height: 120px;
+  width: inherit;
+  background-image: url(../img/menu-insta/insta.png);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 55px 15px;
+}
+
+/* line 9, ../../../sass/main-header/menu/_menu_insta/_insta.scss */
+.galery-text {
+  position: relative;
+  top: 75px;
+  left: 54px;
+}
+
+/* line 1, ../../../sass/main-header/menu/_menu_prize/_prize.scss */
+._prize {
+  height: 120px;
+  width: inherit;
+  background-image: url(../img/menu-prize/prize.png);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 55px 15px;
+}
+
+/* line 9, ../../../sass/main-header/menu/_menu_prize/_prize.scss */
+.about-text {
+  position: relative;
+  top: 80px;
+  left: 46px;
+}
+
+/* line 1, ../../../sass/main-header/menu/_menu_map/_map.scss */
+._map {
+  height: 120px;
+  width: inherit;
+  background-image: url(../img/menu-map/map.png);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 55px 15px;
+}
+
+/* line 9, ../../../sass/main-header/menu/_menu_map/_map.scss */
+.leto-with-lays-text {
+  position: relative;
+  top: 75px;
+  left: 40px;
+}
+
+/* line 6, ../../../sass/main-header/menu/menu.scss */
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  height: initial;
+}
+
+/* line 12, ../../../sass/main-header/menu/menu.scss */
+.menu--item {
+  width: inherit;
+}

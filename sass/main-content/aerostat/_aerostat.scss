@@ -1,5 +1,7 @@
 .content-strip--aerostat{
 	width:50%;
-	height:inherit;
-	background-color: #A0DDFF;
+	background-image:url(../img/aerostat/aerostat.png), url(../img/aerostat/field.jpg);
+	background-repeat: no-repeat;
+	background-size: 15vw, 100% 100%;
+	background-position: 15vw 10vw,0;
 }

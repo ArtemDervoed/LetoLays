@@ -1,0 +1,14 @@
+@import "main-header/menu/_menu_logo/_logo.scss";
+@import "main-header/menu/_menu_insta/_insta.scss";
+@import "main-header/menu/_menu_prize/_prize.scss";
+@import "main-header/menu/_menu_map/_map.scss";
+
+.menu{
+	display : flex;
+	flex-direction : column;
+	width : inherit;
+	height : initial;
+}
+.menu--item{
+	width : inherit;
+}

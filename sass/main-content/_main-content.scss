@@ -7,24 +7,22 @@
 
 
 .container{
-	max-width:1410px;
-	max-height:2420px;
 	.main-content{
 		max-width:1410px;
 		display: flex;
 		flex-direction:column;
-		height:121vw;
-		max-height:1872px;
+		height:174vw;
+		max-height:2150px;
 		width:inherit;
 		background-color: #E4E4E4;
 		.content-strip{
 			max-width:1410px;
-			$content-strip-height : 40vw;
+			$content-strip-height : 46vw;
 			display: flex;	
 			flex-direction:row;
 			width:100%;
 			height:$content-strip-height;
-			max-height:624px;
+			max-height:718px;
 			background-color: #777575;
 		}
 	}

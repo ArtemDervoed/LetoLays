@@ -1,9 +1,15 @@
-$top-bg-height: 35.3vw;
+@import "top-background/animation-elipses/_elips.scss";
+@import "top-background/animation-elipses/animation-elipses";
+@import "top-background/main-text/main-text";
+
+$top-bg-height: 48.3vw;
 .container{
 	.top-background{
 		width:inherit;
 		height:$top-bg-height;
 		max-height:653px;
-		background-color: rgb(99, 102, 249);
+		background-image: url(../img/top-bg/top-background.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}	
 }
