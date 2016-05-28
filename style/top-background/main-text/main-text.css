@@ -1,7 +1,8 @@
-/* line 1, ../../../sass/top-background/main-text/main-text.scss */
+/* line 2, ../../../sass/top-background/main-text/main-text.scss */
 .main-text {
   position: relative;
-  font-size: 5vw;
-  top: 10vw;
-  left: 4vw;
+  font-size: 4vw;
+  top: 4em;
+  left: 1em;
+  width: 600px;
 }
