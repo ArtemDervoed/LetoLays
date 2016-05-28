@@ -163,24 +163,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   flex-direction: column;
   width: inherit;
   margin-left: 150px;
-  max-height: 2903px;
   height: 180vw;
 }
 
 /* line 1, ../sass/top-background/animation-elipses/_elips.scss */
 .elips {
-  height: 9vw;
-  width: 9vw;
+  height: 8vw;
+  width: 8vw;
   border-radius: 100%;
-  margin-right: 4vw;
+  margin-right: 3vw;
   background-color: white;
 }
 
 /* line 1, ../sass/top-background/animation-elipses/animation-elipses.scss */
 .animation-elipses {
   position: relative;
-  top: 50px;
-  left: 60px;
+  top: 4vw;
+  left: 4vw;
   display: flex;
   flex-direction: row;
   width: 600px;
@@ -198,19 +197,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 1vw;
 }
 
-/* line 1, ../sass/top-background/main-text/main-text.scss */
+/* line 2, ../sass/top-background/main-text/main-text.scss */
 .main-text {
   position: relative;
-  font-size: 5vw;
-  top: 10vw;
-  left: 4vw;
+  font-size: 4vw;
+  top: 4em;
+  left: 1em;
+  width: 600px;
 }
 
 /* line 7, ../sass/top-background/_top-background.scss */
 .container .top-background {
   width: inherit;
-  height: 48.3vw;
-  max-height: 653px;
+  height: 57.3vw;
   background-image: url(../img/top-bg/top-background.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -219,7 +218,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 2, ../sass/footer/_footer.scss */
 .main-footer {
   width: inherit;
-  height: 5vw;
+  height: 10vw;
   background-color: #353535;
 }
 
@@ -311,22 +310,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 10, ../sass/main-content/_main-content.scss */
 .container .main-content {
-  max-width: 1410px;
   display: flex;
   flex-direction: column;
   height: 174vw;
-  max-height: 2150px;
   width: inherit;
   background-color: #E4E4E4;
 }
-/* line 18, ../sass/main-content/_main-content.scss */
+/* line 16, ../sass/main-content/_main-content.scss */
 .container .main-content .content-strip {
-  max-width: 1410px;
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 46vw;
-  max-height: 718px;
   background-color: #777575;
 }
 
@@ -343,10 +338,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url(../fonts/GothaProLig.otf);
 }
 /* line 26, ../sass/style.scss */
+html {
+  margin: 0 auto;
+}
+
+/* line 29, ../sass/style.scss */
 body {
   font-family: GothaProLig;
   height: initial;
-  max-height: 2903px;
-  max-width: 1560px;
+  max-width: 1920px;
   margin: 0 auto;
 }

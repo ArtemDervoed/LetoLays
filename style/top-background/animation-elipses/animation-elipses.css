@@ -1,8 +1,8 @@
 /* line 1, ../../../sass/top-background/animation-elipses/animation-elipses.scss */
 .animation-elipses {
   position: relative;
-  top: 50px;
-  left: 60px;
+  top: 4vw;
+  left: 4vw;
   display: flex;
   flex-direction: row;
   width: 600px;

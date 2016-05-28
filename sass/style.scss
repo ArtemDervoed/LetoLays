@@ -22,11 +22,13 @@
    }
 $font-stack:    Helvetica, sans-serif;
  $page-height : 132.5vw;
- $body-max-width: 1560px;
+ $body-max-width: 1920px;
+ html{
+    margin : 0 auto;
+ }
 body {
    font-family:GothaProLig;
   height: initial;
-  max-height:2903px;
   max-width:$body-max-width;
   margin : 0 auto;
 }

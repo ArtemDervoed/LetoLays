@@ -5,11 +5,10 @@
 $top-bg-height: 48.3vw;
 .container{
 	.top-background{
-		width:inherit;
-		height:$top-bg-height;
-		max-height:653px;
-		background-image: url(../img/top-bg/top-background.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
+	width: inherit;
+    height: 57.3vw;
+    background-image: url(../img/top-bg/top-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 	}	
 }
