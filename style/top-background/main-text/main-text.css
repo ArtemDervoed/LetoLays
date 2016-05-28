@@ -1,0 +1,7 @@
+/* line 1, ../../../sass/top-background/main-text/main-text.scss */
+.main-text {
+  position: relative;
+  font-size: 5vw;
+  top: 10vw;
+  left: 4vw;
+}

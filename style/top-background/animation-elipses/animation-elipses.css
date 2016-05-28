@@ -1,0 +1,21 @@
+/* line 1, ../../../sass/top-background/animation-elipses/animation-elipses.scss */
+.animation-elipses {
+  position: relative;
+  top: 50px;
+  left: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  text-align: center;
+}
+
+/* line 10, ../../../sass/top-background/animation-elipses/animation-elipses.scss */
+.animation-elipses--like-text,
+.animation-elipses--load-photo-text,
+.animation-elipses--win-prize-text {
+  position: relative;
+  top: 10vw;
+  right: 0vw;
+  width: 9vw;
+  font-size: 1vw;
+}
