@@ -3,11 +3,11 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import "compass/reset";
-@import "main-header/_main-header";
-@import "container/_container";
-@import "top-background/_top-background";
-@import "footer/_footer";
-@import "main-content/_main-content";
+@import "main-header/main-header";
+@import "container/container";
+@import "top-background/top-background";
+@import "footer/footer";
+@import "main-content/main-content";
 @font-face {
     font-family:GothaProMed; 
     src: url(../fonts/GothaProMed.otf); 
@@ -31,4 +31,61 @@ body {
   height: initial;
   max-width:$body-max-width;
   margin : 0 auto;
+  overflow-x: hidden;
 }
+._red{
+color: #f73934;
+}
+._button-style{
+    width: 14vw;
+    height: 5vw;
+    border: solid white 2px;
+    background-color: rgba(0,0,0,.1);
+    font-size:1.5vw;
+    color:white;
+}
+._button-style:hover{
+  transition-duration:0.5s;
+  background-color: rgba(0,0,0,.2);
+  }
+  @keyframes left {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+ }
+  ._left-translate{
+    position: relative;
+    animation-name: left;
+    animation-duration: 1.5s;
+}
+@keyframes right {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+ }
+ ._right-translate{
+  
+  position: relative;
+    animation-name: right;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    
+}
+@media screen and(max-width: 640px){
+._button-style{
+    width: 26vw;
+    height: 8vw;
+    font-size: 2.5vw;
+}
+}
+

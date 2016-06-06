@@ -1,0 +1,59 @@
+.main-footer--social-network{
+	display:flex;
+	flex-direction:row;
+    position: relative;
+   
+}
+.main-footer--copyright{
+width:52vw;
+font-size: 1.2vw;
+    font-family: GothaProLig;
+    padding-top: 3vw;
+    color: rgb(128,128,128);
+}
+.social-network--block{
+	width: 8vw;
+	 opacity:0.8;
+}
+.social-network--block:hover{
+	opacity:1;
+	transition: 0.5s;
+}
+._facebook{
+	background-image: url(../img/footer/fb.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-position: 0;
+}
+._vk{
+	background-image: url(../img/footer/vk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+}
+._net{
+background-image: url(../img/footer/net.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+}
+._youtube{
+	background-image: url(../img/footer/yt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+}
+@media screen and (max-width: 640px) {
+.main-footer--social-network{
+   
+}
+.main-footer--copyright{
+width:58vw;
+font-size: 1.2vw;
+    padding-top: 3vw;
+}
+.social-network--block{
+    width: 10vw;
+}
+
+}

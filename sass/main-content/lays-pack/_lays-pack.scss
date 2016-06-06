@@ -1,11 +1,21 @@
 @import "main-content/lays-pack/button/button";
-.content-strip--red-block{
-	$size-pack : 14vw;
+@import "main-content/lays-pack/lays-pack--header/lays-pack--header";
+@import "main-content/lays-pack/lays-pack--article/lays-pack--article";
+.red-block{
 	width:50%;
 	height:inherit;
 	background-color: red;
 	background-image: url(../img/lays-pack/layspack.png);
 	background-repeat: no-repeat;
-	background-size: $size-pack;
-    background-position: 4vw 10vw;
+    background-size: 16vw;
+    background-position: 4vw 7vw;
+}
+@media screen and(max-width: 640px){
+.red-block{
+width:100%;
+max-width:100%;
+height: 50%;
+    background-size: 32vw;
+    background-position: 56vw 28vw;
+}
 }

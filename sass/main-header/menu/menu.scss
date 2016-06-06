@@ -12,3 +12,12 @@
 .menu--item{
 	width : inherit;
 }
+@media screen and(max-width: 640px){
+    .menu{
+		
+    }
+    .menu--item{
+    	display:none;
+    	visibility: hidden;
+}
+}

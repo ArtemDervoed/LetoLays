@@ -2,7 +2,49 @@
 .main-text {
   position: relative;
   font-size: 4vw;
-  top: 4em;
+  top: 3em;
   left: 1em;
   width: 600px;
+}
+
+/* line 9, ../../../sass/top-background/main-text/main-text.scss */
+.main-text--summer-text {
+  font-family: GothaProMed;
+  font-size: 7vw;
+  letter-spacing: 3px;
+}
+
+/* line 14, ../../../sass/top-background/main-text/main-text.scss */
+.main-text--with-lays {
+  font-family: GothaProMed;
+  font-size: 6vw;
+  letter-spacing: 0px;
+  font-weight: bolder;
+}
+
+/* line 20, ../../../sass/top-background/main-text/main-text.scss */
+.main-text--with-lays:first-letter {
+  font-family: GothaProLig;
+  font-size: 6vw;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 26, ../../../sass/top-background/main-text/main-text.scss */
+  .main-text {
+    font-size: 7vw;
+    top: 0em;
+    left: 4em;
+  }
+
+  /* line 31, ../../../sass/top-background/main-text/main-text.scss */
+  .main-text--summer-text {
+    font-size: 12vw;
+    letter-spacing: 0px;
+  }
+
+  /* line 35, ../../../sass/top-background/main-text/main-text.scss */
+  .main-text--with-lays {
+    font-size: 11vw;
+    letter-spacing: 0px;
+  }
 }

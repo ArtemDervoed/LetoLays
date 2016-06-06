@@ -1,9 +1,11 @@
-.content-strip--girl-at-wall-button{
+.girl-at-wall--button{
 	position:relative;
-	top: 36vw;
+	top: 22vw;
     left: 7vw;
-    width: 14vw;
-    height: 4vw;
-    border: solid white 2px;
-    background-color: rgba(143,12,0,.1);
+}
+@media screen and(max-width: 640px){
+.girl-at-wall--button{
+    top: 39vw;
+    left: 55vw;
+}
 }

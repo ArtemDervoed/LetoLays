@@ -9,5 +9,17 @@
 .galery-text{
 	position:relative;
 	top: 75px;
-    left: 54px;
+    left: 45px;
+}
+@media screen and(max-width: 1400px){
+._insta{	
+	height: 10vw;
+    background-size: 4vw;
+    background-position: 3.7vw 3vw;
+}
+.galery-text{	
+	top: 9vw;
+   left: 3vw;
+    font-size: 1.5vw;
+}
 }

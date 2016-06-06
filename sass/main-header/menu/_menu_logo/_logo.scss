@@ -9,5 +9,17 @@
 .leto-lays-text{
 	position:relative;
 	top: 112px;
-    left: 38px;
+    left: 30px;
+}
+@media screen and(max-width: 1400px){
+	._logo{
+		height: 12vw;
+  	    background-size: 6vw;
+  	    background-position: 2.7vw 3vw;
+	}
+	.leto-lays-text{
+		top: 9.5vw;
+	    left: 1.6vw;
+	    font-size: 1.5vw;
+	}
 }

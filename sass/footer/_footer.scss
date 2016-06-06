@@ -1,6 +1,11 @@
+@import  "social/social-network";	
+@import  "logo/logo";
+@import  "copyright/copyright";	
 $footer-height : 5vw;
 .main-footer{
-	    width: inherit;
+	width: inherit;
     height: 10vw;
     background-color: #353535;
+    display: flex;
+    flex-direction:row;
 }

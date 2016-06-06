@@ -8,17 +8,37 @@
 
 .container{
 	.main-content{
-    display: flex;
-    flex-direction: column;
-    height: 174vw;
-    width: inherit;
-    background-color: #E4E4E4;
-		.content-strip{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 46vw;
-    background-color: #777575;
-		}
-	}
+        display: flex;
+        flex-direction: column;
+        height: 174vw;
+        width: inherit;
+        background-color: #ECDA00;
+        .content-strip{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 46vw;
+            background-color: #ECDA00;
+        }
+    }
+}
+@media screen and(max-width: 640px){
+    .container{
+        .main-content{
+            height: 600vw;
+            .content-strip{
+                flex-direction: column;
+                width: 100%;
+                height: 200vw;
+                background-color: #ECDA00;
+            }
+        }
+    }
+    .container{
+        .main-content{
+            .content-strip:nth-child(3){
+                flex-direction: column-reverse;
+            }
+        }
+    }
 }

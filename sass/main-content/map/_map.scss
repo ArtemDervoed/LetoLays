@@ -1,5 +1,6 @@
 @import "main-content/map/button/button";
-.content-strip--map{
+@import "main-content/map/map--header/map--header";
+.map{
 	width:50%;
 		background-image:
 		url(../img/map/lays.png),
@@ -12,9 +13,18 @@
 	 11vw,
 	 40vw,
 	 cover;
-    background-position:
-     19vw 11vw, 
-     17vw 9vw, 
-     2vw 20vw, 
-     0 0;
+	background-position: 
+		19vw 5vw,
+		17vw 3vw,
+		2vw 14vw,
+		0 0;
+}
+@media screen and(max-width: 640px){
+.map{
+width:100%;
+max-width:100%;
+height: 50%;
+    background-size: 20vw, 28vw, 90vw, cover;
+    background-position: 42vw 16vw, 38vw 11vw, 5vw 40vw, 0 0;
+}
 }

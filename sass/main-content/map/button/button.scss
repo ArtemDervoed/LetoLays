@@ -1,9 +1,12 @@
-.content-strip--map-button{
+.map--button{
 	position:relative;
-	top: 38vw;
+	top: 32vw;
     left: 16vw;
-    width: 14vw;
-    height: 4vw;
-    border: solid white 2px;
-    background-color: rgba(143,12,0,.1);
 }
+@media screen and(max-width: 640px){
+
+.map--button{
+top: 80vw;
+    left: 38vw;
+}
+	}

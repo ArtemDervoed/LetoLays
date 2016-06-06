@@ -1,9 +1,11 @@
-.content-strip--red-block-button{
+.red-block--button{
 	position:relative;
-	top: 36vw;
+	top: 19vw;
     left: 7vw;
-    width: 14vw;
-    height: 4vw;
-    border: solid white 2px;
-    background-color: rgba(143,12,0,.1);
+}
+@media screen and(max-width: 640px){
+.red-block--button{
+    top: 55vw;
+    left: 35vw;
+	}
 }

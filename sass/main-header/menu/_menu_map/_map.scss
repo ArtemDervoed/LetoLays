@@ -9,5 +9,17 @@
 .leto-with-lays-text{
 	position:relative;
 	top: 75px;
-    left: 40px;
+    left: 30px;
+}
+@media screen and(max-width: 1400px){
+._map{		
+	    height: 10vw;
+    background-size: 4vw;
+    background-position: 3.7vw 3vw;
+}
+.leto-with-lays-text{
+	top: 9vw;
+   left: 1vw;
+    font-size: 1.5vw;
+}
 }

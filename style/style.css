@@ -81,9 +81,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .leto-lays-text {
   position: relative;
   top: 112px;
-  left: 38px;
+  left: 30px;
 }
 
+@media screen and (max-width: 1400px) {
+  /* line 15, ../sass/main-header/menu/_menu_logo/_logo.scss */
+  ._logo {
+    height: 12vw;
+    background-size: 6vw;
+    background-position: 2.7vw 3vw;
+  }
+
+  /* line 20, ../sass/main-header/menu/_menu_logo/_logo.scss */
+  .leto-lays-text {
+    top: 9.5vw;
+    left: 1.6vw;
+    font-size: 1.5vw;
+  }
+}
 /* line 1, ../sass/main-header/menu/_menu_insta/_insta.scss */
 ._insta {
   height: 120px;
@@ -98,9 +113,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .galery-text {
   position: relative;
   top: 75px;
-  left: 54px;
+  left: 45px;
 }
 
+@media screen and (max-width: 1400px) {
+  /* line 15, ../sass/main-header/menu/_menu_insta/_insta.scss */
+  ._insta {
+    height: 10vw;
+    background-size: 4vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 20, ../sass/main-header/menu/_menu_insta/_insta.scss */
+  .galery-text {
+    top: 9vw;
+    left: 3vw;
+    font-size: 1.5vw;
+  }
+}
 /* line 1, ../sass/main-header/menu/_menu_prize/_prize.scss */
 ._prize {
   height: 120px;
@@ -115,9 +145,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .about-text {
   position: relative;
   top: 80px;
-  left: 46px;
+  left: 35px;
 }
 
+@media screen and (max-width: 1400px) {
+  /* line 15, ../sass/main-header/menu/_menu_prize/_prize.scss */
+  ._prize {
+    height: 10vw;
+    background-size: 4vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 20, ../sass/main-header/menu/_menu_prize/_prize.scss */
+  .about-text {
+    top: 10vw;
+    left: 2vw;
+    font-size: 1.5vw;
+  }
+}
 /* line 1, ../sass/main-header/menu/_menu_map/_map.scss */
 ._map {
   height: 120px;
@@ -132,9 +177,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .leto-with-lays-text {
   position: relative;
   top: 75px;
-  left: 40px;
+  left: 30px;
 }
 
+@media screen and (max-width: 1400px) {
+  /* line 15, ../sass/main-header/menu/_menu_map/_map.scss */
+  ._map {
+    height: 10vw;
+    background-size: 4vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 20, ../sass/main-header/menu/_menu_map/_map.scss */
+  .leto-with-lays-text {
+    top: 9vw;
+    left: 1vw;
+    font-size: 1.5vw;
+  }
+}
 /* line 6, ../sass/main-header/menu/menu.scss */
 .menu {
   display: flex;
@@ -148,6 +208,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: inherit;
 }
 
+@media screen and (max-width: 640px) {
+  /* line 19, ../sass/main-header/menu/menu.scss */
+  .menu--item {
+    display: none;
+    visibility: hidden;
+  }
+}
 /* line 3, ../sass/main-header/_main-header.scss */
 .main-header {
   position: fixed;
@@ -157,6 +224,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #f6f6f6;
 }
 
+@media screen and (max-width: 1400px) {
+  /* line 11, ../sass/main-header/_main-header.scss */
+  .main-header {
+    position: fixed;
+    width: 11.6vw;
+    height: 132.5vw;
+    max-height: 2903px;
+    background-color: #f6f6f6;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 20, ../sass/main-header/_main-header.scss */
+  .main-header {
+    position: fixed;
+    width: 100%;
+    height: 11.6vw;
+    background-color: #f6f6f6;
+  }
+}
 /* line 1, ../sass/container/_container.scss */
 .container {
   display: flex;
@@ -166,6 +252,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 180vw;
 }
 
+@media screen and (max-width: 1400px) {
+  /* line 9, ../sass/container/_container.scss */
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    margin-left: 11.6vw;
+    height: 180vw;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 18, ../sass/container/_container.scss */
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 779vw;
+    margin-left: 0vw;
+  }
+}
 /* line 1, ../sass/top-background/animation-elipses/_elips.scss */
 .elips {
   height: 8vw;
@@ -175,6 +280,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: white;
 }
 
+@media screen and (max-width: 640px) {
+  /* line 9, ../sass/top-background/animation-elipses/_elips.scss */
+  .elips {
+    height: 15vw;
+    width: 15vw;
+    margin-right: 10vw;
+  }
+}
 /* line 1, ../sass/top-background/animation-elipses/animation-elipses.scss */
 .animation-elipses {
   position: relative;
@@ -197,16 +310,79 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 1vw;
 }
 
+@media screen and (max-width: 640px) {
+  /* line 22, ../sass/top-background/animation-elipses/animation-elipses.scss */
+  .animation-elipses {
+    top: 50vw;
+    left: 15vw;
+    width: 600px;
+  }
+
+  /* line 27, ../sass/top-background/animation-elipses/animation-elipses.scss */
+  .animation-elipses--like-text,
+  .animation-elipses--load-photo-text,
+  .animation-elipses--win-prize-text {
+    top: 16vw;
+    right: 0vw;
+    width: 16vw;
+    font-size: 2vw;
+  }
+}
 /* line 2, ../sass/top-background/main-text/main-text.scss */
 .main-text {
   position: relative;
   font-size: 4vw;
-  top: 4em;
+  top: 3em;
   left: 1em;
   width: 600px;
 }
 
-/* line 7, ../sass/top-background/_top-background.scss */
+/* line 9, ../sass/top-background/main-text/main-text.scss */
+.main-text--summer-text {
+  font-family: GothaProMed;
+  font-size: 7vw;
+  letter-spacing: 3px;
+}
+
+/* line 14, ../sass/top-background/main-text/main-text.scss */
+.main-text--with-lays {
+  font-family: GothaProMed;
+  font-size: 6vw;
+  letter-spacing: 0px;
+  font-weight: bolder;
+}
+
+/* line 20, ../sass/top-background/main-text/main-text.scss */
+.main-text--with-lays:first-letter {
+  font-family: GothaProLig;
+  font-size: 6vw;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 26, ../sass/top-background/main-text/main-text.scss */
+  .main-text {
+    font-size: 7vw;
+    top: 0em;
+    left: 4em;
+  }
+
+  /* line 31, ../sass/top-background/main-text/main-text.scss */
+  .main-text--summer-text {
+    font-size: 12vw;
+    letter-spacing: 0px;
+  }
+
+  /* line 35, ../sass/top-background/main-text/main-text.scss */
+  .main-text--with-lays {
+    font-size: 11vw;
+    letter-spacing: 0px;
+  }
+}
+/* line 6, ../sass/top-background/_top-background.scss */
+.container {
+  background-color: #ECDA00;
+}
+/* line 8, ../sass/top-background/_top-background.scss */
 .container .top-background {
   width: inherit;
   height: 57.3vw;
@@ -215,26 +391,170 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 100% 100%;
 }
 
-/* line 2, ../sass/footer/_footer.scss */
+@media screen and (max-width: 640px) {
+  /* line 18, ../sass/top-background/_top-background.scss */
+  .container .top-background {
+    background-image: url(../img/top-bg/top-background-mobile.jpg);
+    height: 158vw;
+    margin-top: 11.6vw;
+  }
+}
+/* line 1, ../sass/footer/social/_social-network.scss */
+.main-footer--social-network {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+/* line 7, ../sass/footer/social/_social-network.scss */
+.main-footer--copyright {
+  width: 52vw;
+  font-size: 1.2vw;
+  font-family: GothaProLig;
+  padding-top: 3vw;
+  color: gray;
+}
+
+/* line 14, ../sass/footer/social/_social-network.scss */
+.social-network--block {
+  width: 8vw;
+  opacity: 0.8;
+}
+
+/* line 18, ../sass/footer/social/_social-network.scss */
+.social-network--block:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/* line 22, ../sass/footer/social/_social-network.scss */
+._facebook {
+  background-image: url(../img/footer/fb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+/* line 28, ../sass/footer/social/_social-network.scss */
+._vk {
+  background-image: url(../img/footer/vk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+/* line 34, ../sass/footer/social/_social-network.scss */
+._net {
+  background-image: url(../img/footer/net.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+/* line 40, ../sass/footer/social/_social-network.scss */
+._youtube {
+  background-image: url(../img/footer/yt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 50, ../sass/footer/social/_social-network.scss */
+  .main-footer--copyright {
+    width: 58vw;
+    font-size: 1.2vw;
+    padding-top: 3vw;
+  }
+
+  /* line 55, ../sass/footer/social/_social-network.scss */
+  .social-network--block {
+    width: 10vw;
+  }
+}
+/* line 1, ../sass/footer/logo/_logo.scss */
+.main-footer--logo {
+  width: 8vw;
+  height: 7vw;
+  background-image: url(../img/logo/lays.png);
+  background-repeat: no-repeat;
+  background-size: 5vw;
+  background-position: 2vw 1.5vw;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 11, ../sass/footer/logo/_logo.scss */
+  .main-footer--logo {
+    display: none;
+    visibility: hidden;
+  }
+}
+/* line 5, ../sass/footer/_footer.scss */
 .main-footer {
   width: inherit;
   height: 10vw;
   background-color: #353535;
+  display: flex;
+  flex-direction: row;
 }
 
 /* line 1, ../sass/main-content/girl-at-wall/button/button.scss */
-.content-strip--girl-at-wall-button {
+.girl-at-wall--button {
   position: relative;
-  top: 36vw;
+  top: 22vw;
   left: 7vw;
-  width: 14vw;
-  height: 4vw;
-  border: solid white 2px;
-  background-color: rgba(143, 12, 0, 0.1);
 }
 
-/* line 2, ../sass/main-content/girl-at-wall/_girl-at-wall.scss */
-.content-strip--girl-at-wall {
+@media screen and (max-width: 640px) {
+  /* line 7, ../sass/main-content/girl-at-wall/button/button.scss */
+  .girl-at-wall--button {
+    top: 39vw;
+    left: 55vw;
+  }
+}
+/* line 1, ../sass/main-content/girl-at-wall/girl-at-wall--header/_girl-at-wall--header.scss */
+.girl-at-wall--header {
+  position: relative;
+  font-family: GothaProBol;
+  font-size: 3vw;
+  letter-spacing: -2px;
+  top: 17vw;
+  left: 6vw;
+}
+
+/* line 9, ../sass/main-content/girl-at-wall/girl-at-wall--header/_girl-at-wall--header.scss */
+.girl-at-wall--hash {
+  position: relative;
+  font-family: GothaProLig;
+  font-size: 3vw;
+  letter-spacing: -2px;
+  top: 17vw;
+  left: 6vw;
+  background-color: #FFF;
+  width: 17vw;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 20, ../sass/main-content/girl-at-wall/girl-at-wall--header/_girl-at-wall--header.scss */
+  .girl-at-wall--header {
+    font-size: 7vw;
+    letter-spacing: -2px;
+    top: 44vw;
+    left: 7vw;
+    line-height: 9vw;
+  }
+
+  /* line 27, ../sass/main-content/girl-at-wall/girl-at-wall--header/_girl-at-wall--header.scss */
+  .girl-at-wall--hash {
+    font-size: 7vw;
+    letter-spacing: -1px;
+    top: 47vw;
+    left: 7vw;
+    width: 42vw;
+  }
+}
+/* line 3, ../sass/main-content/girl-at-wall/_girl-at-wall.scss */
+.girl-at-wall {
   width: 50%;
   max-width: 50%;
   background-image: url(../img/girl-at-wall/girl-at-wall.jpg);
@@ -242,50 +562,152 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 100% 100%;
 }
 
+@media screen and (max-width: 640px) {
+  /* line 11, ../sass/main-content/girl-at-wall/_girl-at-wall.scss */
+  .girl-at-wall {
+    width: 100%;
+    max-width: 100%;
+    height: 50%;
+  }
+}
 /* line 1, ../sass/main-content/map/button/button.scss */
-.content-strip--map-button {
+.map--button {
   position: relative;
-  top: 38vw;
+  top: 32vw;
   left: 16vw;
-  width: 14vw;
-  height: 4vw;
-  border: solid white 2px;
-  background-color: rgba(143, 12, 0, 0.1);
 }
 
-/* line 2, ../sass/main-content/map/_map.scss */
-.content-strip--map {
+@media screen and (max-width: 640px) {
+  /* line 8, ../sass/main-content/map/button/button.scss */
+  .map--button {
+    top: 80vw;
+    left: 38vw;
+  }
+}
+/* line 1, ../sass/main-content/map/map--header/_map--header.scss */
+.map--header {
+  position: relative;
+  font-family: GothaProBol;
+  font-size: 4vw;
+  letter-spacing: -1px;
+  top: 30vw;
+  left: 11vw;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 11, ../sass/main-content/map/map--header/_map--header.scss */
+  .map--header {
+    font-size: 7vw;
+    letter-spacing: -1px;
+    top: 77vw;
+    left: 28vw;
+  }
+}
+/* line 3, ../sass/main-content/map/_map.scss */
+.map {
   width: 50%;
   background-image: url(../img/map/lays.png), url(../img/map/linkonmap.png), url(../img/map/map.png), url(../img/map/areaundermap.jpg);
   background-repeat: no-repeat;
   background-size: 7vw 7vw, 11vw, 40vw, cover;
-  background-position: 19vw 11vw,  17vw 9vw,  2vw 20vw,  0 0;
+  background-position: 19vw 5vw, 17vw 3vw, 2vw 14vw, 0 0;
 }
 
+@media screen and (max-width: 640px) {
+  /* line 23, ../sass/main-content/map/_map.scss */
+  .map {
+    width: 100%;
+    max-width: 100%;
+    height: 50%;
+    background-size: 20vw, 28vw, 90vw, cover;
+    background-position: 42vw 16vw, 38vw 11vw, 5vw 40vw, 0 0;
+  }
+}
 /* line 1, ../sass/main-content/lays-pack/button/button.scss */
-.content-strip--red-block-button {
+.red-block--button {
   position: relative;
-  top: 36vw;
+  top: 19vw;
   left: 7vw;
-  width: 14vw;
-  height: 4vw;
-  border: solid white 2px;
-  background-color: rgba(143, 12, 0, 0.1);
 }
 
-/* line 2, ../sass/main-content/lays-pack/_lays-pack.scss */
-.content-strip--red-block {
+@media screen and (max-width: 640px) {
+  /* line 7, ../sass/main-content/lays-pack/button/button.scss */
+  .red-block--button {
+    top: 55vw;
+    left: 35vw;
+  }
+}
+/* line 1, ../sass/main-content/lays-pack/lays-pack--header/_lays-pack--header.scss */
+.red-block-header {
+  position: relative;
+  font-family: GothaProBol;
+  font-size: 4vw;
+  letter-spacing: -2px;
+  top: 9vw;
+  left: 20vw;
+  color: white;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 11, ../sass/main-content/lays-pack/lays-pack--header/_lays-pack--header.scss */
+  .red-block-header br:nth-child(1) {
+    display: none;
+  }
+
+  /* line 14, ../sass/main-content/lays-pack/lays-pack--header/_lays-pack--header.scss */
+  .red-block-header {
+    font-size: 9vw;
+    letter-spacing: -2px;
+    top: 15vw;
+    left: 11vw;
+  }
+}
+/* line 1, ../sass/main-content/lays-pack/lays-pack--article/_lays-pack--article.scss */
+.red-block-article {
+  position: relative;
+  top: 15vw;
+  left: 6vw;
+  width: 32vw;
+  height: 3vw;
+  color: white;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 11, ../sass/main-content/lays-pack/lays-pack--article/_lays-pack--article.scss */
+  .red-block-article {
+    position: relative;
+    top: 22vw;
+    left: 6vw;
+    width: 43vw;
+    height: 3vw;
+    color: white;
+    font-size: 4.5vw;
+    line-height: normal;
+  }
+}
+/* line 4, ../sass/main-content/lays-pack/_lays-pack.scss */
+.red-block {
   width: 50%;
   height: inherit;
   background-color: red;
   background-image: url(../img/lays-pack/layspack.png);
   background-repeat: no-repeat;
-  background-size: 14vw;
-  background-position: 4vw 10vw;
+  background-size: 16vw;
+  background-position: 4vw 7vw;
 }
 
+@media screen and (max-width: 640px) {
+  /* line 14, ../sass/main-content/lays-pack/_lays-pack.scss */
+  .red-block {
+    width: 100%;
+    max-width: 100%;
+    height: 50%;
+    background-size: 32vw;
+    background-position: 56vw 28vw;
+  }
+}
 /* line 1, ../sass/main-content/aerostat/_aerostat.scss */
-.content-strip--aerostat {
+.aerostat {
   width: 50%;
   background-image: url(../img/aerostat/aerostat.png), url(../img/aerostat/field.jpg);
   background-repeat: no-repeat;
@@ -293,28 +715,81 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-position: 15vw 10vw,0;
 }
 
+@media screen and (max-width: 640px) {
+  /* line 9, ../sass/main-content/aerostat/_aerostat.scss */
+  .aerostat {
+    width: 100%;
+    max-width: 100%;
+    height: 50%;
+    background-size: 28vw, 100% 100%;
+    background-position: 35vw 30vw,0;
+  }
+}
 /* line 2, ../sass/main-content/galery/_galery.scss */
-.content-strip--galery {
+.galery {
   width: 50%;
-  height: inherit;
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
+/* line 8, ../sass/main-content/galery/_galery.scss */
+.sub-content-strip {
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: row;
+  height: 13vw;
+}
+
+/* line 14, ../sass/main-content/galery/_galery.scss */
+.galery-img {
+  margin-left: 1.5vw;
+  width: 13vw;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 19, ../sass/main-content/galery/_galery.scss */
+  .galery {
+    width: 100%;
+    max-width: 100%;
+    height: 50%;
+  }
+
+  /* line 24, ../sass/main-content/galery/_galery.scss */
+  .sub-content-strip {
+    margin-top: 2vw;
+    height: 30vw;
+  }
+
+  /* line 28, ../sass/main-content/galery/_galery.scss */
+  .galery-img {
+    margin-left: 2vw;
+    width: 30vw;
+  }
+}
 /* line 2, ../sass/main-content/peoples/_peoples.scss */
-.content-strip--people-on-beach {
+.people-on-beach {
   width: 50%;
   background-image: url(../img/people/peopleonbeach.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
+@media screen and (max-width: 640px) {
+  /* line 9, ../sass/main-content/peoples/_peoples.scss */
+  .people-on-beach {
+    width: 100%;
+    max-width: 100%;
+    height: 50%;
+  }
+}
 /* line 10, ../sass/main-content/_main-content.scss */
 .container .main-content {
   display: flex;
   flex-direction: column;
   height: 174vw;
   width: inherit;
-  background-color: #E4E4E4;
+  background-color: #ECDA00;
 }
 /* line 16, ../sass/main-content/_main-content.scss */
 .container .main-content .content-strip {
@@ -322,9 +797,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   flex-direction: row;
   width: 100%;
   height: 46vw;
-  background-color: #777575;
+  background-color: #ECDA00;
 }
 
+@media screen and (max-width: 640px) {
+  /* line 27, ../sass/main-content/_main-content.scss */
+  .container .main-content {
+    height: 600vw;
+  }
+  /* line 29, ../sass/main-content/_main-content.scss */
+  .container .main-content .content-strip {
+    flex-direction: column;
+    width: 100%;
+    height: 200vw;
+    background-color: #ECDA00;
+  }
+
+  /* line 39, ../sass/main-content/_main-content.scss */
+  .container .main-content .content-strip:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+}
 @font-face {
   font-family: GothaProMed;
   src: url(../fonts/GothaProMed.otf);
@@ -348,4 +841,70 @@ body {
   height: initial;
   max-width: 1920px;
   margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* line 36, ../sass/style.scss */
+._red {
+  color: #f73934;
+}
+
+/* line 39, ../sass/style.scss */
+._button-style {
+  width: 14vw;
+  height: 5vw;
+  border: solid white 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 1.5vw;
+  color: white;
+}
+
+/* line 47, ../sass/style.scss */
+._button-style:hover {
+  transition-duration: 0.5s;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* line 61, ../sass/style.scss */
+._left-translate {
+  position: relative;
+  animation-name: left;
+  animation-duration: 1.5s;
+}
+
+@keyframes right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* line 76, ../sass/style.scss */
+._right-translate {
+  position: relative;
+  animation-name: right;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 85, ../sass/style.scss */
+  ._button-style {
+    width: 26vw;
+    height: 8vw;
+    font-size: 2.5vw;
+  }
 }

@@ -9,5 +9,17 @@
 .about-text{
 	position:relative;
 	top: 80px;
-    left: 46px;
+    left: 35px;
+}
+@media screen and(max-width: 1400px){
+._prize{			
+	height: 10vw;
+    background-size: 4vw;
+    background-position: 3.7vw 3vw;
+}
+.about-text{
+	top: 10vw;
+    left: 2vw;
+    font-size: 1.5vw;
+}
 }

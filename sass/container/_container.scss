@@ -5,3 +5,21 @@
     margin-left: 150px;
     height: 180vw;
 }
+@media screen and(max-width: 1400px){
+	.container{
+        display: flex;
+        flex-direction: column;
+        width: inherit;
+        margin-left: 11.6vw;
+        height: 180vw;
+    }
+}
+@media screen and(max-width: 640px){
+    .container{
+        display: flex;
+        flex-direction: column;
+       height: 779vw;
+        margin-left: 0vw;
+    }
+}
+

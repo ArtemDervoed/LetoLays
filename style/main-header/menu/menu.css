@@ -12,9 +12,24 @@
 .leto-lays-text {
   position: relative;
   top: 112px;
-  left: 38px;
+  left: 30px;
 }
 
+@media screen and (max-width: 1400px) {
+  /* line 15, ../../../sass/main-header/menu/_menu_logo/_logo.scss */
+  ._logo {
+    height: 12vw;
+    background-size: 6vw;
+    background-position: 2.7vw 3vw;
+  }
+
+  /* line 20, ../../../sass/main-header/menu/_menu_logo/_logo.scss */
+  .leto-lays-text {
+    top: 9.5vw;
+    left: 1.6vw;
+    font-size: 1.5vw;
+  }
+}
 /* line 1, ../../../sass/main-header/menu/_menu_insta/_insta.scss */
 ._insta {
   height: 120px;
@@ -29,9 +44,24 @@
 .galery-text {
   position: relative;
   top: 75px;
-  left: 54px;
+  left: 45px;
 }
 
+@media screen and (max-width: 1400px) {
+  /* line 15, ../../../sass/main-header/menu/_menu_insta/_insta.scss */
+  ._insta {
+    height: 10vw;
+    background-size: 4vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 20, ../../../sass/main-header/menu/_menu_insta/_insta.scss */
+  .galery-text {
+    top: 9vw;
+    left: 3vw;
+    font-size: 1.5vw;
+  }
+}
 /* line 1, ../../../sass/main-header/menu/_menu_prize/_prize.scss */
 ._prize {
   height: 120px;
@@ -46,9 +76,24 @@
 .about-text {
   position: relative;
   top: 80px;
-  left: 46px;
+  left: 35px;
 }
 
+@media screen and (max-width: 1400px) {
+  /* line 15, ../../../sass/main-header/menu/_menu_prize/_prize.scss */
+  ._prize {
+    height: 10vw;
+    background-size: 4vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 20, ../../../sass/main-header/menu/_menu_prize/_prize.scss */
+  .about-text {
+    top: 10vw;
+    left: 2vw;
+    font-size: 1.5vw;
+  }
+}
 /* line 1, ../../../sass/main-header/menu/_menu_map/_map.scss */
 ._map {
   height: 120px;
@@ -63,9 +108,24 @@
 .leto-with-lays-text {
   position: relative;
   top: 75px;
-  left: 40px;
+  left: 30px;
 }
 
+@media screen and (max-width: 1400px) {
+  /* line 15, ../../../sass/main-header/menu/_menu_map/_map.scss */
+  ._map {
+    height: 10vw;
+    background-size: 4vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 20, ../../../sass/main-header/menu/_menu_map/_map.scss */
+  .leto-with-lays-text {
+    top: 9vw;
+    left: 1vw;
+    font-size: 1.5vw;
+  }
+}
 /* line 6, ../../../sass/main-header/menu/menu.scss */
 .menu {
   display: flex;
@@ -77,4 +137,12 @@
 /* line 12, ../../../sass/main-header/menu/menu.scss */
 .menu--item {
   width: inherit;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 19, ../../../sass/main-header/menu/menu.scss */
+  .menu--item {
+    display: none;
+    visibility: hidden;
+  }
 }

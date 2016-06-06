@@ -16,3 +16,20 @@
 	width:9vw;
 	font-size:1vw;
 }
+
+@media screen and(max-width: 640px){
+
+.animation-elipses{
+top: 50vw;
+    left: 15vw;
+    width: 600px;
+}
+.animation-elipses--like-text, 
+.animation-elipses--load-photo-text,
+.animation-elipses--win-prize-text{
+    top: 16vw;
+    right: 0vw;
+    width: 16vw;
+    font-size: 2vw;
+}
+}
