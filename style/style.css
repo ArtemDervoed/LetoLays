@@ -250,10 +250,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: inherit;
   margin-left: 150px;
   height: 180vw;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1400px) {
-  /* line 9, ../sass/container/_container.scss */
+  /* line 10, ../sass/container/_container.scss */
   .container {
     display: flex;
     flex-direction: column;
@@ -263,7 +264,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 18, ../sass/container/_container.scss */
+  /* line 19, ../sass/container/_container.scss */
   .container {
     display: flex;
     flex-direction: column;
