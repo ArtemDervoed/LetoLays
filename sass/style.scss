@@ -38,7 +38,7 @@ color: #f73934;
 }
 ._button-style{
     width: 14vw;
-    height: 5vw;
+    height: 4vw;
     border: solid white 2px;
     background-color: rgba(0,0,0,.1);
     font-size:1.5vw;
@@ -48,9 +48,24 @@ color: #f73934;
   transition-duration:0.5s;
   background-color: rgba(0,0,0,.2);
   }
+  @keyframes scale {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1); 
+        opacity: 1;
+    }
+ }
+  ._left-translate{
+    position: relative;
+    animation-name: left;
+    animation-duration: 1.5s;
+}
   @keyframes left {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(-75%);
         opacity: 0;
     }
     100% {
@@ -65,7 +80,7 @@ color: #f73934;
 }
 @keyframes right {
     0% {
-        transform: translateX(100%);
+        transform: translateX(75%);
         opacity: 0;
     }
     100% {
@@ -80,6 +95,10 @@ color: #f73934;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     
+}
+._hidden{
+  display: none;
+  visibility: hidden;
 }
 @media screen and(max-width: 640px){
 ._button-style{

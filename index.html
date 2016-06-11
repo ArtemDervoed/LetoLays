@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lays</title>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+   <script src="scripts/jquery-3.0.0.min.js"></script>
+  <script src="scripts/_switch.js"></script>
   <link rel="stylesheet" type="text/css" href="style/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
@@ -16,22 +17,30 @@
           #летосLays
         </p>
       </div>
-      <div class="menu--item _insta">
+      <div class="menu--item _insta ">
        <p class="galery-text">
          Галерея
        </p>
      </div>
-     <div class="menu--item _prize">
+     <div class="menu--item _prize ">
        <p class="about-text">
         О проекте
       </p>
     </div>
-    <div class="menu--item _map">
+    <div class="menu--item _map ">
      <p class="leto-with-lays-text">
        Лето с Lay's
      </p>
    </div>
-   <div class="menu--item _hidden"></div>
+   <div class="menu--item _escape-menu">
+    <p class="escape-menu">
+       СВЕРНУТЬ МЕНЮ
+    </p>
+ </div>
+ <div class="switch">
+   <div class="switch--strip _on"></div>
+   <div class="switch--strip _on"></div>
+   <div class="switch--strip _on"></div>  
  </div>
 </header>
 <section class="container">
@@ -62,6 +71,11 @@
   <section class="main-content">
     <section class="content-strip _left-translate"> 
       <div class="girl-at-wall">
+        <div class="arrow">
+          <div class="arrow--strip"></div>
+          <div class="arrow--strip"></div>
+          <div class="arrow--strip"></div>
+        </div>
         <h1 class="girl-at-wall--header">
           Загружай</br>
           фото</br>
@@ -117,7 +131,7 @@
   <div class="main-footer--logo">
   </div>
   <div class="main-footer--copyright">
-  © 2015 Lay's Russia. Все права защищены
+  © 2015 Lay's Russia. <span class="allright">Все права защищены</span>
   </div>
   <div class="main-footer--social-network">
     <div class="social-network--block _facebook"></div>

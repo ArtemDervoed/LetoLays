@@ -1,0 +1,49 @@
+.arrow{
+    position: relative;
+    top: 15vw;
+    left: 7vw;
+    width: 15vw;
+    height: 8vw;
+}
+.arrow--strip{
+    background-color: red;
+    width:0.5vw;
+    height:5vw;
+    border-radius: 10%; 
+}
+.arrow--strip:nth-child(1){
+           transform: rotate(45deg) translate(1.7vw, -4.6vw);
+}
+.arrow--strip:nth-child(2){
+       transform: rotate(-45deg) translate(10.3vw, 0.5vw);
+}
+.arrow--strip:nth-child(3){
+        transform: translate(6vw, -11vw);
+    height: 7vw;
+}
+
+@media screen and(max-width: 640px){
+.arrow{
+	position: relative;
+    top: 30vw;
+    left: 22vw;
+    width: 15vw;
+    height: 19vw;
+}
+.arrow--strip{
+	background-color: red;
+	width:1vw;
+	height:10vw;
+	border-radius: 10%; 
+}
+.arrow--strip:nth-child(1){
+    transform: rotate(45deg) translate(1.5vw, -2.9vw);
+}
+.arrow--strip:nth-child(2){
+transform: rotate(-45deg) translate(14.5vw, -1vw);
+}
+.arrow--strip:nth-child(3){
+transform: translate(6.4vw, -19vw);
+    height: 15vw;
+}
+}

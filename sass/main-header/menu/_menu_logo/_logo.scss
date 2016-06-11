@@ -16,10 +16,24 @@
 		height: 12vw;
   	    background-size: 6vw;
   	    background-position: 2.7vw 3vw;
+
 	}
 	.leto-lays-text{
 		top: 9.5vw;
 	    left: 1.6vw;
 	    font-size: 1.5vw;
+	}
+}
+@media screen and(max-width: 640px){
+	._logo{
+		height: 12vw;
+  	    background-size: 7vw;
+  	    background-position: 2.7vw 3vw;
+  	    
+	}
+	.leto-lays-text{
+		top: 4.5vw;
+		left: 41.6vw;
+		font-size: 3vw;
 	}
 }

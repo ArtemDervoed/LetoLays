@@ -23,11 +23,26 @@
     background-position: 2.7vw 3vw;
   }
 
-  /* line 20, ../../../sass/main-header/menu/_menu_logo/_logo.scss */
+  /* line 21, ../../../sass/main-header/menu/_menu_logo/_logo.scss */
   .leto-lays-text {
     top: 9.5vw;
     left: 1.6vw;
     font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 28, ../../../sass/main-header/menu/_menu_logo/_logo.scss */
+  ._logo {
+    height: 12vw;
+    background-size: 7vw;
+    background-position: 2.7vw 3vw;
+  }
+
+  /* line 34, ../../../sass/main-header/menu/_menu_logo/_logo.scss */
+  .leto-lays-text {
+    top: 4.5vw;
+    left: 41.6vw;
+    font-size: 3vw;
   }
 }
 /* line 1, ../../../sass/main-header/menu/_menu_insta/_insta.scss */
@@ -62,6 +77,21 @@
     font-size: 1.5vw;
   }
 }
+@media screen and (max-width: 640px) {
+  /* line 27, ../../../sass/main-header/menu/_menu_insta/_insta.scss */
+  ._insta {
+    height: 10vw;
+    background-size: 7vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 32, ../../../sass/main-header/menu/_menu_insta/_insta.scss */
+  .galery-text {
+    top: 4vw;
+    left: 43vw;
+    font-size: 3vw;
+  }
+}
 /* line 1, ../../../sass/main-header/menu/_menu_prize/_prize.scss */
 ._prize {
   height: 120px;
@@ -87,11 +117,26 @@
     background-position: 3.7vw 3vw;
   }
 
-  /* line 20, ../../../sass/main-header/menu/_menu_prize/_prize.scss */
+  /* line 21, ../../../sass/main-header/menu/_menu_prize/_prize.scss */
   .about-text {
     top: 10vw;
     left: 2vw;
     font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 28, ../../../sass/main-header/menu/_menu_prize/_prize.scss */
+  ._prize {
+    height: 10vw;
+    background-size: 7vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 33, ../../../sass/main-header/menu/_menu_prize/_prize.scss */
+  .about-text {
+    top: 4vw;
+    left: 42vw;
+    font-size: 3vw;
   }
 }
 /* line 1, ../../../sass/main-header/menu/_menu_map/_map.scss */
@@ -119,11 +164,26 @@
     background-position: 3.7vw 3vw;
   }
 
-  /* line 20, ../../../sass/main-header/menu/_menu_map/_map.scss */
+  /* line 21, ../../../sass/main-header/menu/_menu_map/_map.scss */
   .leto-with-lays-text {
     top: 9vw;
     left: 1vw;
     font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 29, ../../../sass/main-header/menu/_menu_map/_map.scss */
+  ._map {
+    height: 10vw;
+    background-size: 7vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 34, ../../../sass/main-header/menu/_menu_map/_map.scss */
+  .leto-with-lays-text {
+    top: 4vw;
+    left: 41vw;
+    font-size: 3vw;
   }
 }
 /* line 6, ../../../sass/main-header/menu/menu.scss */
@@ -137,12 +197,42 @@
 /* line 12, ../../../sass/main-header/menu/menu.scss */
 .menu--item {
   width: inherit;
+  visibility: visible;
+}
+
+/* line 16, ../../../sass/main-header/menu/menu.scss */
+.menu--item:hover {
+  background-color: white;
+}
+
+/* line 19, ../../../sass/main-header/menu/menu.scss */
+.escape-menu {
+  visibility: hidden;
 }
 
 @media screen and (max-width: 640px) {
-  /* line 19, ../../../sass/main-header/menu/menu.scss */
+  /* line 23, ../../../sass/main-header/menu/menu.scss */
   .menu--item {
-    display: none;
-    visibility: hidden;
+    background-color: #f6f6f6;
+    height: 15vw;
+  }
+
+  /* line 27, ../../../sass/main-header/menu/menu.scss */
+  .menu--item:nth-child(5) {
+    background-color: #f0eded;
+  }
+
+  /* line 30, ../../../sass/main-header/menu/menu.scss */
+  .menu--item:nth-child(5):hover {
+    background-color: white;
+  }
+
+  /* line 34, ../../../sass/main-header/menu/menu.scss */
+  .escape-menu {
+    position: relative;
+    top: 4vw;
+    left: 37vw;
+    font-size: 3vw;
+    visibility: visible;
   }
 }

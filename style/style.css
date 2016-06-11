@@ -92,11 +92,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-position: 2.7vw 3vw;
   }
 
-  /* line 20, ../sass/main-header/menu/_menu_logo/_logo.scss */
+  /* line 21, ../sass/main-header/menu/_menu_logo/_logo.scss */
   .leto-lays-text {
     top: 9.5vw;
     left: 1.6vw;
     font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 28, ../sass/main-header/menu/_menu_logo/_logo.scss */
+  ._logo {
+    height: 12vw;
+    background-size: 7vw;
+    background-position: 2.7vw 3vw;
+  }
+
+  /* line 34, ../sass/main-header/menu/_menu_logo/_logo.scss */
+  .leto-lays-text {
+    top: 4.5vw;
+    left: 41.6vw;
+    font-size: 3vw;
   }
 }
 /* line 1, ../sass/main-header/menu/_menu_insta/_insta.scss */
@@ -131,6 +146,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-size: 1.5vw;
   }
 }
+@media screen and (max-width: 640px) {
+  /* line 27, ../sass/main-header/menu/_menu_insta/_insta.scss */
+  ._insta {
+    height: 10vw;
+    background-size: 7vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 32, ../sass/main-header/menu/_menu_insta/_insta.scss */
+  .galery-text {
+    top: 4vw;
+    left: 43vw;
+    font-size: 3vw;
+  }
+}
 /* line 1, ../sass/main-header/menu/_menu_prize/_prize.scss */
 ._prize {
   height: 120px;
@@ -156,11 +186,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-position: 3.7vw 3vw;
   }
 
-  /* line 20, ../sass/main-header/menu/_menu_prize/_prize.scss */
+  /* line 21, ../sass/main-header/menu/_menu_prize/_prize.scss */
   .about-text {
     top: 10vw;
     left: 2vw;
     font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 28, ../sass/main-header/menu/_menu_prize/_prize.scss */
+  ._prize {
+    height: 10vw;
+    background-size: 7vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 33, ../sass/main-header/menu/_menu_prize/_prize.scss */
+  .about-text {
+    top: 4vw;
+    left: 42vw;
+    font-size: 3vw;
   }
 }
 /* line 1, ../sass/main-header/menu/_menu_map/_map.scss */
@@ -188,11 +233,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-position: 3.7vw 3vw;
   }
 
-  /* line 20, ../sass/main-header/menu/_menu_map/_map.scss */
+  /* line 21, ../sass/main-header/menu/_menu_map/_map.scss */
   .leto-with-lays-text {
     top: 9vw;
     left: 1vw;
     font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 29, ../sass/main-header/menu/_menu_map/_map.scss */
+  ._map {
+    height: 10vw;
+    background-size: 7vw;
+    background-position: 3.7vw 3vw;
+  }
+
+  /* line 34, ../sass/main-header/menu/_menu_map/_map.scss */
+  .leto-with-lays-text {
+    top: 4vw;
+    left: 41vw;
+    font-size: 3vw;
   }
 }
 /* line 6, ../sass/main-header/menu/menu.scss */
@@ -206,16 +266,101 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 12, ../sass/main-header/menu/menu.scss */
 .menu--item {
   width: inherit;
+  visibility: visible;
+}
+
+/* line 16, ../sass/main-header/menu/menu.scss */
+.menu--item:hover {
+  background-color: white;
+}
+
+/* line 19, ../sass/main-header/menu/menu.scss */
+.escape-menu {
+  visibility: hidden;
 }
 
 @media screen and (max-width: 640px) {
-  /* line 19, ../sass/main-header/menu/menu.scss */
+  /* line 23, ../sass/main-header/menu/menu.scss */
   .menu--item {
-    display: none;
-    visibility: hidden;
+    background-color: #f6f6f6;
+    height: 15vw;
+  }
+
+  /* line 27, ../sass/main-header/menu/menu.scss */
+  .menu--item:nth-child(5) {
+    background-color: #f0eded;
+  }
+
+  /* line 30, ../sass/main-header/menu/menu.scss */
+  .menu--item:nth-child(5):hover {
+    background-color: white;
+  }
+
+  /* line 34, ../sass/main-header/menu/menu.scss */
+  .escape-menu {
+    position: relative;
+    top: 4vw;
+    left: 37vw;
+    font-size: 3vw;
+    visibility: visible;
   }
 }
-/* line 3, ../sass/main-header/_main-header.scss */
+@media screen and (max-width: 640px) {
+  /* line 4, ../sass/main-header/switch/_switch.scss */
+  .switch {
+    position: relative;
+    bottom: 72vw;
+    left: 85vw;
+    height: 5vw;
+    width: 6vw;
+  }
+
+  /* line 11, ../sass/main-header/switch/_switch.scss */
+  ._off {
+    position: relative;
+    height: 1vw;
+    width: 100%;
+    margin-bottom: 1vw;
+    background-color: red;
+  }
+
+  /* line 18, ../sass/main-header/switch/_switch.scss */
+  ._on:nth-child(1) {
+    transition: all;
+    transition-duration: 0.5s;
+    position: relative;
+    height: 1vw;
+    width: 100%;
+    margin-bottom: 1vw;
+    background-color: red;
+    transform: rotate(40deg) translate(0.7vw, 2.1vw);
+  }
+
+  /* line 28, ../sass/main-header/switch/_switch.scss */
+  ._on:nth-child(2) {
+    transition: all;
+    transition-duration: 0.5s;
+    position: relative;
+    height: 1vw;
+    width: 100%;
+    margin-bottom: 1vw;
+    background-color: red;
+    opacity: 0;
+  }
+
+  /* line 38, ../sass/main-header/switch/_switch.scss */
+  ._on:nth-child(3) {
+    transition: all;
+    transition-duration: 0.5s;
+    position: relative;
+    height: 1vw;
+    width: 100%;
+    margin-bottom: 1vw;
+    background-color: red;
+    transform: rotate(-40deg) translate(0.7vw, -2vw);
+  }
+}
+/* line 4, ../sass/main-header/_main-header.scss */
 .main-header {
   position: fixed;
   width: 150px;
@@ -225,7 +370,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 @media screen and (max-width: 1400px) {
-  /* line 11, ../sass/main-header/_main-header.scss */
+  /* line 12, ../sass/main-header/_main-header.scss */
   .main-header {
     position: fixed;
     width: 11.6vw;
@@ -235,12 +380,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 20, ../sass/main-header/_main-header.scss */
+  /* line 21, ../sass/main-header/_main-header.scss */
   .main-header {
     position: fixed;
     width: 100%;
     height: 11.6vw;
     background-color: #f6f6f6;
+    z-index: 2;
   }
 }
 /* line 1, ../sass/container/_container.scss */
@@ -268,7 +414,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .container {
     display: flex;
     flex-direction: column;
-    height: 779vw;
+    height: 776vw;
     margin-left: 0vw;
   }
 }
@@ -279,14 +425,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 100%;
   margin-right: 3vw;
   background-color: white;
+  opacity: 0;
+}
+
+/* line 9, ../sass/top-background/animation-elipses/_elips.scss */
+.elips:nth-child(1) {
+  animation-name: scale;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+/* line 15, ../sass/top-background/animation-elipses/_elips.scss */
+.elips:nth-child(2) {
+  animation-name: scale;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 3s;
+}
+
+/* line 21, ../sass/top-background/animation-elipses/_elips.scss */
+.elips:nth-child(3) {
+  animation-name: scale;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 5s;
 }
 
 @media screen and (max-width: 640px) {
-  /* line 9, ../sass/top-background/animation-elipses/_elips.scss */
+  /* line 29, ../sass/top-background/animation-elipses/_elips.scss */
   .elips {
-    height: 15vw;
-    width: 15vw;
-    margin-right: 10vw;
+    height: 10vw;
+    width: 10vw;
+    margin-right: 21vw;
   }
 }
 /* line 1, ../sass/top-background/animation-elipses/animation-elipses.scss */
@@ -314,7 +485,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media screen and (max-width: 640px) {
   /* line 22, ../sass/top-background/animation-elipses/animation-elipses.scss */
   .animation-elipses {
-    top: 50vw;
+    top: 28vw;
     left: 15vw;
     width: 600px;
   }
@@ -323,8 +494,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .animation-elipses--like-text,
   .animation-elipses--load-photo-text,
   .animation-elipses--win-prize-text {
-    top: 16vw;
-    right: 0vw;
+    top: 12vw;
+    right: 3vw;
     width: 16vw;
     font-size: 2vw;
   }
@@ -362,20 +533,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media screen and (max-width: 640px) {
   /* line 26, ../sass/top-background/main-text/main-text.scss */
   .main-text {
-    font-size: 7vw;
-    top: 0em;
-    left: 4em;
+    font-size: 4vw;
+    top: -1em;
+    left: 10em;
   }
 
   /* line 31, ../sass/top-background/main-text/main-text.scss */
   .main-text--summer-text {
-    font-size: 12vw;
+    font-size: 7vw;
     letter-spacing: 0px;
   }
 
   /* line 35, ../sass/top-background/main-text/main-text.scss */
   .main-text--with-lays {
-    font-size: 11vw;
+    font-size: 6vw;
     letter-spacing: 0px;
   }
 }
@@ -409,16 +580,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 7, ../sass/footer/social/_social-network.scss */
 .main-footer--copyright {
-  width: 52vw;
-  font-size: 1.2vw;
+  width: 61vw;
+  font-size: 1vw;
   font-family: GothaProLig;
-  padding-top: 3vw;
-  color: gray;
+  padding-top: 2.2vw;
+  color: #B1ADAD;
 }
 
 /* line 14, ../sass/footer/social/_social-network.scss */
 .social-network--block {
-  width: 8vw;
+  width: 6vw;
   opacity: 0.8;
 }
 
@@ -463,23 +634,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media screen and (max-width: 640px) {
   /* line 50, ../sass/footer/social/_social-network.scss */
   .main-footer--copyright {
-    width: 58vw;
-    font-size: 1.2vw;
-    padding-top: 3vw;
+    width: 62vw;
+    font-size: 1.5vw;
+    padding-top: 2.5vw;
+    padding-left: 4vw;
   }
 
-  /* line 55, ../sass/footer/social/_social-network.scss */
+  /* line 56, ../sass/footer/social/_social-network.scss */
+  .allright {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* line 60, ../sass/footer/social/_social-network.scss */
   .social-network--block {
-    width: 10vw;
+    width: 9vw;
   }
 }
 /* line 1, ../sass/footer/logo/_logo.scss */
 .main-footer--logo {
   width: 8vw;
-  height: 7vw;
+  height: 5vw;
   background-image: url(../img/logo/lays.png);
   background-repeat: no-repeat;
-  background-size: 5vw;
+  background-size: 3vw;
   background-position: 2vw 1.5vw;
 }
 
@@ -493,7 +671,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 5, ../sass/footer/_footer.scss */
 .main-footer {
   width: inherit;
-  height: 10vw;
+  height: 7vw;
   background-color: #353535;
   display: flex;
   flex-direction: row;
@@ -502,15 +680,82 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../sass/main-content/girl-at-wall/button/button.scss */
 .girl-at-wall--button {
   position: relative;
-  top: 22vw;
+  top: 15vw;
   left: 7vw;
 }
 
 @media screen and (max-width: 640px) {
   /* line 7, ../sass/main-content/girl-at-wall/button/button.scss */
   .girl-at-wall--button {
-    top: 39vw;
+    top: 22vw;
     left: 55vw;
+  }
+}
+/* line 1, ../sass/main-content/girl-at-wall/arrow/_arrow.scss */
+.arrow {
+  position: relative;
+  top: 15vw;
+  left: 7vw;
+  width: 15vw;
+  height: 8vw;
+}
+
+/* line 8, ../sass/main-content/girl-at-wall/arrow/_arrow.scss */
+.arrow--strip {
+  background-color: red;
+  width: 0.5vw;
+  height: 5vw;
+  border-radius: 10%;
+}
+
+/* line 14, ../sass/main-content/girl-at-wall/arrow/_arrow.scss */
+.arrow--strip:nth-child(1) {
+  transform: rotate(45deg) translate(1.7vw, -4.6vw);
+}
+
+/* line 17, ../sass/main-content/girl-at-wall/arrow/_arrow.scss */
+.arrow--strip:nth-child(2) {
+  transform: rotate(-45deg) translate(10.3vw, 0.5vw);
+}
+
+/* line 20, ../sass/main-content/girl-at-wall/arrow/_arrow.scss */
+.arrow--strip:nth-child(3) {
+  transform: translate(6vw, -11vw);
+  height: 7vw;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 26, ../sass/main-content/girl-at-wall/arrow/_arrow.scss */
+  .arrow {
+    position: relative;
+    top: 30vw;
+    left: 22vw;
+    width: 15vw;
+    height: 19vw;
+  }
+
+  /* line 33, ../sass/main-content/girl-at-wall/arrow/_arrow.scss */
+  .arrow--strip {
+    background-color: red;
+    width: 1vw;
+    height: 10vw;
+    border-radius: 10%;
+  }
+
+  /* line 39, ../sass/main-content/girl-at-wall/arrow/_arrow.scss */
+  .arrow--strip:nth-child(1) {
+    transform: rotate(45deg) translate(1.5vw, -2.9vw);
+  }
+
+  /* line 42, ../sass/main-content/girl-at-wall/arrow/_arrow.scss */
+  .arrow--strip:nth-child(2) {
+    transform: rotate(-45deg) translate(14.5vw, -1vw);
+  }
+
+  /* line 45, ../sass/main-content/girl-at-wall/arrow/_arrow.scss */
+  .arrow--strip:nth-child(3) {
+    transform: translate(6.4vw, -19vw);
+    height: 15vw;
   }
 }
 /* line 1, ../sass/main-content/girl-at-wall/girl-at-wall--header/_girl-at-wall--header.scss */
@@ -519,7 +764,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: GothaProBol;
   font-size: 3vw;
   letter-spacing: -2px;
-  top: 17vw;
+  top: 13vw;
   left: 6vw;
 }
 
@@ -529,7 +774,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: GothaProLig;
   font-size: 3vw;
   letter-spacing: -2px;
-  top: 17vw;
+  top: 14vw;
   left: 6vw;
   background-color: #FFF;
   width: 17vw;
@@ -538,23 +783,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media screen and (max-width: 640px) {
   /* line 20, ../sass/main-content/girl-at-wall/girl-at-wall--header/_girl-at-wall--header.scss */
   .girl-at-wall--header {
-    font-size: 7vw;
+    font-size: 6.5vw;
     letter-spacing: -2px;
-    top: 44vw;
-    left: 7vw;
-    line-height: 9vw;
+    top: 28vw;
+    left: 11vw;
+    line-height: 8vw;
   }
 
   /* line 27, ../sass/main-content/girl-at-wall/girl-at-wall--header/_girl-at-wall--header.scss */
   .girl-at-wall--hash {
-    font-size: 7vw;
+    font-size: 6.5vw;
     letter-spacing: -1px;
-    top: 47vw;
-    left: 7vw;
-    width: 42vw;
+    top: 29vw;
+    left: 11vw;
+    width: 38vw;
   }
 }
-/* line 3, ../sass/main-content/girl-at-wall/_girl-at-wall.scss */
+/* line 4, ../sass/main-content/girl-at-wall/_girl-at-wall.scss */
 .girl-at-wall {
   width: 50%;
   max-width: 50%;
@@ -564,7 +809,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 @media screen and (max-width: 640px) {
-  /* line 11, ../sass/main-content/girl-at-wall/_girl-at-wall.scss */
+  /* line 12, ../sass/main-content/girl-at-wall/_girl-at-wall.scss */
   .girl-at-wall {
     width: 100%;
     max-width: 100%;
@@ -716,14 +961,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-position: 15vw 10vw,0;
 }
 
+/* line 8, ../sass/main-content/aerostat/_aerostat.scss */
+.aerostat:hover {
+  animation-name: resizeAero, right;
+  animation-duration: 20s , 0s;
+  animation-iteration-count: infinite, 0;
+}
+
+@keyframes resizeAero {
+  0% {
+    background-size: 15vw, 100% 100%;
+  }
+  50% {
+    background-size: 17vw, 110% 110%;
+  }
+  100% {
+    background-size: 15vw, 100% 100%;
+  }
+}
 @media screen and (max-width: 640px) {
-  /* line 9, ../sass/main-content/aerostat/_aerostat.scss */
+  /* line 27, ../sass/main-content/aerostat/_aerostat.scss */
   .aerostat {
     width: 100%;
     max-width: 100%;
     height: 50%;
     background-size: 28vw, 100% 100%;
     background-position: 35vw 30vw,0;
+  }
+
+  /* line 34, ../sass/main-content/aerostat/_aerostat.scss */
+  .aerostat:hover {
+    animation: none;
   }
 }
 /* line 2, ../sass/main-content/galery/_galery.scss */
@@ -768,7 +1036,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 30vw;
   }
 }
-/* line 2, ../sass/main-content/peoples/_peoples.scss */
+@keyframes resizePeople {
+  0% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 110% 110%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+/* line 15, ../sass/main-content/peoples/_peoples.scss */
 .people-on-beach {
   width: 50%;
   background-image: url(../img/people/peopleonbeach.jpg);
@@ -776,12 +1055,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 100% 100%;
 }
 
+/* line 21, ../sass/main-content/peoples/_peoples.scss */
+.people-on-beach:hover {
+  animation-name: resizePeople, left;
+  animation-duration: 20s,0s;
+  animation-iteration-count: infinite, 0;
+}
+
 @media screen and (max-width: 640px) {
-  /* line 9, ../sass/main-content/peoples/_peoples.scss */
+  /* line 28, ../sass/main-content/peoples/_peoples.scss */
   .people-on-beach {
     width: 100%;
     max-width: 100%;
     height: 50%;
+    animation: none;
   }
 }
 /* line 10, ../sass/main-content/_main-content.scss */
@@ -853,7 +1140,7 @@ body {
 /* line 39, ../sass/style.scss */
 ._button-style {
   width: 14vw;
-  height: 5vw;
+  height: 4vw;
   border: solid white 2px;
   background-color: rgba(0, 0, 0, 0.1);
   font-size: 1.5vw;
@@ -866,13 +1153,13 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-@keyframes left {
+@keyframes scale {
   0% {
-    transform: translateX(-100%);
+    transform: scale(0);
     opacity: 0;
   }
   100% {
-    transform: translateX(0);
+    transform: scale(1);
     opacity: 1;
   }
 }
@@ -883,9 +1170,9 @@ body {
   animation-duration: 1.5s;
 }
 
-@keyframes right {
+@keyframes left {
   0% {
-    transform: translateX(100%);
+    transform: translateX(-75%);
     opacity: 0;
   }
   100% {
@@ -894,6 +1181,23 @@ body {
   }
 }
 /* line 76, ../sass/style.scss */
+._left-translate {
+  position: relative;
+  animation-name: left;
+  animation-duration: 1.5s;
+}
+
+@keyframes right {
+  0% {
+    transform: translateX(75%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* line 91, ../sass/style.scss */
 ._right-translate {
   position: relative;
   animation-name: right;
@@ -901,8 +1205,14 @@ body {
   animation-iteration-count: 1;
 }
 
+/* line 99, ../sass/style.scss */
+._hidden {
+  display: none;
+  visibility: hidden;
+}
+
 @media screen and (max-width: 640px) {
-  /* line 85, ../sass/style.scss */
+  /* line 104, ../sass/style.scss */
   ._button-style {
     width: 26vw;
     height: 8vw;

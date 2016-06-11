@@ -23,7 +23,7 @@
 @media screen and (max-width: 640px) {
   /* line 22, ../../../sass/top-background/animation-elipses/animation-elipses.scss */
   .animation-elipses {
-    top: 50vw;
+    top: 28vw;
     left: 15vw;
     width: 600px;
   }
@@ -32,8 +32,8 @@
   .animation-elipses--like-text,
   .animation-elipses--load-photo-text,
   .animation-elipses--win-prize-text {
-    top: 16vw;
-    right: 0vw;
+    top: 12vw;
+    right: 3vw;
     width: 16vw;
     font-size: 2vw;
   }

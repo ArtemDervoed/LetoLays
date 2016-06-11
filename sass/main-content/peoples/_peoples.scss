@@ -1,14 +1,34 @@
 
+@keyframes resizePeople {
+    0% {
+     background-size: 100% 100%;
+
+    }
+    50% {
+    	
+       background-size:110% 110%;
+    }
+    100% {   	
+             background-size: 100% 100%;
+    }
+ }
 .people-on-beach{
 	width:50%;
 	background-image: url(../img/people/peopleonbeach.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
+.people-on-beach:hover{
+	animation-name: resizePeople, left;
+	animation-duration: 20s,0s;
+	animation-iteration-count: infinite, 0;
+}
+
 @media screen and(max-width: 640px){
 .people-on-beach{
 width:100%;
 max-width:100%;
 height: 50%;
+animation: none;
 }
 }

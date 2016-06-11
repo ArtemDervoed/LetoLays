@@ -3,7 +3,7 @@
    font-family: GothaProBol;
     font-size: 3vw;
     letter-spacing: -2px;
-    top: 17vw;
+    top: 13vw;
     left: 6vw;
 }
 .girl-at-wall--hash{
@@ -11,24 +11,24 @@ position: relative;
    font-family: GothaProLig;
     font-size: 3vw;
     letter-spacing: -2px;
-    top: 17vw;
+    top: 14vw;
     left: 6vw;
     background-color: #FFF;
     width: 17vw;
 }
 @media screen and(max-width: 640px){
 .girl-at-wall--header{
-    font-size: 7vw;
+        font-size: 6.5vw;
     letter-spacing: -2px;
-    top: 44vw;
-    left: 7vw;
-    line-height: 9vw;
+    top: 28vw;
+    left: 11vw;
+    line-height: 8vw;
 }
 .girl-at-wall--hash{
-    font-size: 7vw;
+       font-size: 6.5vw;
     letter-spacing: -1px;
-    top: 47vw;
-    left: 7vw;
-    width: 42vw;
+    top: 29vw;
+    left: 11vw;
+    width: 38vw;
 }
 }

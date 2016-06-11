@@ -1,0 +1,48 @@
+
+
+@media screen and (max-width: 640px) {
+	.switch {
+		position: relative;
+		bottom: 72vw;
+        left: 85vw;
+		height: 5vw;
+		width: 6vw;
+	}
+	 ._off{
+	    position: relative;
+	    height: 1vw;
+	    width: 100%;
+	    margin-bottom: 1vw;
+	    background-color: red;
+	}
+	._on:nth-child(1){
+		transition:all;
+		transition-duration:0.5s;
+	    position: relative;
+	    height: 1vw;
+	    width: 100%;
+	    margin-bottom: 1vw;
+	    background-color: red;
+	    transform: rotate(40deg) translate(0.7vw,2.1vw);
+	}
+	._on:nth-child(2){
+		transition:all;
+		transition-duration:0.5s;
+	    position: relative;
+	    height: 1vw;
+	    width: 100%;
+	    margin-bottom: 1vw;
+	    background-color: red;
+	    opacity:0;
+	}
+	._on:nth-child(3){
+		transition:all;
+		transition-duration:0.5s;
+	    position: relative;
+	    height: 1vw;
+	    width: 100%;
+	    margin-bottom: 1vw;
+	    background-color: red;
+	    transform: rotate(-40deg) translate(0.7vw,-2vw);
+	}
+}

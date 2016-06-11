@@ -11,13 +11,32 @@
 }
 .menu--item{
 	width : inherit;
+    visibility:visible;
 }
-@media screen and(max-width: 640px){
-    .menu{
-		
+.menu--item:hover{
+    background-color: white;
+}
+ .escape-menu{
+visibility:hidden;
     }
-    .menu--item{
-    	display:none;
-    	visibility: hidden;
+@media screen and(max-width: 640px){
+.menu--item{
+    background-color: #f6f6f6;
+    height: 15vw;
 }
+.menu--item:nth-child(5) {
+    background-color: #f0eded;
 }
+.menu--item:nth-child(5):hover {
+   background-color: white;
+
+}
+    .escape-menu{
+    	position:relative;
+        top: 4vw;
+        left: 37vw;
+        font-size: 3vw;
+        visibility:visible;
+    }
+}
+

@@ -5,14 +5,14 @@
    
 }
 .main-footer--copyright{
-width:52vw;
-font-size: 1.2vw;
+    width: 61vw;
+    font-size: 1vw;
     font-family: GothaProLig;
-    padding-top: 3vw;
-    color: rgb(128,128,128);
+    padding-top: 2.2vw;
+    color: #B1ADAD;
 }
 .social-network--block{
-	width: 8vw;
+	width: 6vw;
 	 opacity:0.8;
 }
 .social-network--block:hover{
@@ -22,7 +22,7 @@ font-size: 1.2vw;
 ._facebook{
 	background-image: url(../img/footer/fb.jpg);
     background-repeat: no-repeat;
-   background-size: cover;
+    background-size: cover;
     background-position: 0;
 }
 ._vk{
@@ -48,12 +48,17 @@ background-image: url(../img/footer/net.jpg);
    
 }
 .main-footer--copyright{
-width:58vw;
-font-size: 1.2vw;
-    padding-top: 3vw;
+    width: 62vw;
+    font-size: 1.5vw;
+    padding-top: 2.5vw;
+    padding-left: 4vw;
+}
+.allright{
+    display:none;
+    visibility:hidden;
 }
 .social-network--block{
-    width: 10vw;
+    width: 9vw;
 }
 
 }
