@@ -1,0 +1,28 @@
+@import "main-header/menu/menu";
+@import "main-header/switch/switch";
+$header-width : 150px;
+.main-header{
+	position:fixed;
+	width:$header-width;
+	height: 132.5vw;
+	max-height:2903px;
+	background-color: #f6f6f6;
+}
+@media screen and(max-width: 1400px){
+	.main-header{
+		position:fixed;
+		width: 11.6vw;
+		height: 132.5vw;
+		max-height:2903px;
+		background-color: #f6f6f6;
+	}
+}
+@media screen and(max-width: 640px){
+	.main-header{
+		position:fixed;
+		width: 100%;
+		height: 11.6vw;
+		background-color: #f6f6f6;
+		z-index: 2;
+	}
+}

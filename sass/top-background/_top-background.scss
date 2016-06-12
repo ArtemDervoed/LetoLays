@@ -1,0 +1,24 @@
+@import "top-background/animation-elipses/_elips.scss";
+@import "top-background/animation-elipses/animation-elipses";
+@import "top-background/main-text/main-text";
+
+$top-bg-height: 48.3vw;
+.container{
+	background-color: #ECDA00;
+	.top-background{
+		width: inherit;
+		height: 57.3vw;
+		background-image: url(../img/top-bg/top-background.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}	
+}
+@media screen and(max-width: 640px){
+	.container{
+		.top-background{
+			background-image: url(../img/top-bg/top-background-mobile.jpg);
+		    height: 158vw;
+			margin-top: 11.6vw;
+		}
+	}
+}

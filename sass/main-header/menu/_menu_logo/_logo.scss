@@ -1,0 +1,39 @@
+._logo{
+	height : 160px;
+	width : inherit;
+	background-image: url(../img/logo/lays.png);
+	background-repeat: no-repeat;
+    background-size: 85px;
+    background-position: 35px 35px;
+}
+.leto-lays-text{
+	position:relative;
+	top: 112px;
+    left: 30px;
+}
+@media screen and(max-width: 1400px){
+	._logo{
+		height: 12vw;
+  	    background-size: 6vw;
+  	    background-position: 2.7vw 3vw;
+
+	}
+	.leto-lays-text{
+		top: 9.5vw;
+	    left: 1.6vw;
+	    font-size: 1.5vw;
+	}
+}
+@media screen and(max-width: 640px){
+	._logo{
+		height: 12vw;
+  	    background-size: 7vw;
+  	    background-position: 2.7vw 3vw;
+  	    
+	}
+	.leto-lays-text{
+		top: 4.5vw;
+		left: 41.6vw;
+		font-size: 3vw;
+	}
+}

@@ -1,0 +1,39 @@
+
+.main-text{
+    position: relative;
+    font-size: 4vw;
+    top: 3em;
+    left: 1em;
+    width: 600px;
+}
+.main-text--summer-text{
+	font-family: GothaProMed;
+    font-size: 7vw;
+    letter-spacing: 3px;
+}
+.main-text--with-lays{
+	font-family: GothaProMed;
+    font-size: 6vw;
+    letter-spacing: 0px;
+        font-weight: bolder;
+}
+.main-text--with-lays:first-letter{
+    font-family: GothaProLig;
+    font-size: 6vw;
+}
+
+@media screen and(max-width: 640px){
+.main-text{
+    font-size: 4vw;
+    top: -1em;
+    left: 10em;
+}
+.main-text--summer-text{
+         font-size: 7vw;
+    letter-spacing: 0px;
+}
+.main-text--with-lays{
+    font-size: 6vw;
+    letter-spacing: 0px;
+}
+}

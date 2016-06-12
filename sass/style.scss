@@ -1,0 +1,108 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+@import "main-header/main-header";
+@import "container/container";
+@import "top-background/top-background";
+@import "footer/footer";
+@import "main-content/main-content";
+@font-face {
+    font-family:GothaProMed; 
+    src: url(../fonts/GothaProMed.otf); 
+   }
+@font-face {
+    font-family:GothaProBol; 
+    src: url(../fonts/GothaProBol.otf); 
+   }
+@font-face {
+    font-family:GothaProLig; 
+    src: url(../fonts/GothaProLig.otf); 
+   }
+$font-stack:    Helvetica, sans-serif;
+ $page-height : 132.5vw;
+ $body-max-width: 1920px;
+ html{
+    margin : 0 auto;
+ }
+body {
+   font-family:GothaProLig;
+  height: initial;
+  max-width:$body-max-width;
+  margin : 0 auto;
+  overflow-x: hidden;
+}
+._red{
+color: #f73934;
+}
+._button-style{
+    width: 14vw;
+    height: 4vw;
+    border: solid white 2px;
+    background-color: rgba(0,0,0,.1);
+    font-size:1.5vw;
+    color:white;
+}
+._button-style:hover{
+  transition: 1s;
+  transition-property:background-color;
+  background-color: rgba(0,0,0,.2);
+  }
+._button-style:not(:hover){
+  transition: 1s;
+  transition-property:background-color;
+  background-color: rgba(0,0,0,.1);
+  }
+  @-webkit-keyframes scale {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1); 
+        opacity: 1;
+    }
+ }
+  @-webkit-keyframes left {
+    0% {
+        transform: translateX(-75%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+ }
+  ._left-translate{
+    -webkit-animation-name: left;
+    -webkit-animation-duration: 1.5s;
+}
+@-webkit-keyframes right {
+    0% {
+        transform: translateX(75%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+ }
+ ._right-translate {
+   -webkit-animation-name: right;
+   -webkit-animation-duration: 1.5s;
+   -webkit-animation-iteration-count: 1;
+   } 
+
+._hidden{
+  display: none;
+  visibility: hidden;
+}
+@media screen and(max-width: 640px){
+._button-style{
+    width: 26vw;
+    height: 8vw;
+    font-size: 2.5vw;
+}
+}
+

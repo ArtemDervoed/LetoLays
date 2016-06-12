@@ -1,0 +1,28 @@
+.elips{
+	height: 8vw;
+    width: 8vw;
+    border-radius: 100%;
+    margin-right: 3vw;
+    background-color: white;
+    opacity:0;
+    -webkit-animation-name:scale;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration:2s;
+}
+.elips:nth-child(1){
+	-webkit-animation-delay:1s;
+}
+.elips:nth-child(2){
+	-webkit-animation-delay:2.5s;
+}
+.elips:nth-child(3){
+	-webkit-animation-delay:4s;
+}
+
+@media screen and(max-width: 640px){
+.elips{
+    height: 10vw;
+    width: 10vw;
+    margin-right: 21vw;
+	}
+}

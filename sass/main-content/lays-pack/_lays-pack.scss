@@ -1,0 +1,34 @@
+@import "main-content/lays-pack/button/button";
+@import "main-content/lays-pack/lays-pack--header/lays-pack--header";
+@import "main-content/lays-pack/lays-pack--article/lays-pack--article";
+.red-block{
+	width:50%;
+	background-color: red;
+	background-image: url(../img/lays-pack/layspack.png);
+	background-repeat: no-repeat;
+    background-size: 16vw;
+    background-position: 4vw 7vw;
+    z-index:2;
+}
+.red-block--red-square{
+    height: 10vw;
+    width: 10vw;
+    position: relative;
+    top: -8vw;
+    left: 38vw;
+    background-color: red;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+@media screen and(max-width: 640px){
+.red-block{
+width:100%;
+max-width:100%;
+height: 50%;
+    background-size: 32vw;
+    background-position: 56vw 28vw;
+}
+.red-block--red-square{
+display:none;
+    }
+}

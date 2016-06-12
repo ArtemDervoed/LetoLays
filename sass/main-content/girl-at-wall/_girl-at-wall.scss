@@ -1,0 +1,18 @@
+@import "main-content/girl-at-wall/button/button";
+@import "main-content/girl-at-wall/arrow/arrow";
+@import "main-content/girl-at-wall/girl-at-wall--header/girl-at-wall--header";
+.girl-at-wall{
+	width:50%;
+	max-width:50%;
+	background-image: url(../img/girl-at-wall/girl-at-wall.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		z-index:1;
+}
+@media screen and(max-width: 640px){
+.girl-at-wall{
+width:100%;
+max-width:100%;
+height: 50%;
+}
+}

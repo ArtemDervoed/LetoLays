@@ -1,0 +1,17 @@
+.map--header{
+    position: relative;
+   font-family: GothaProBol;
+       font-size: 4vw;
+    letter-spacing: -1px;
+    top: 30vw;
+    left: 11vw;
+}
+
+@media screen and(max-width: 640px){
+	.map--header{
+       font-size: 7vw;
+    letter-spacing: -1px;
+    top: 77vw;
+    left: 28vw;
+}
+}
