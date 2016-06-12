@@ -1,4 +1,4 @@
-.red-block-header{
+.red-block--header{
 	position: relative;
 	font-family: GothaProBol;
 	font-size: 4vw;
@@ -8,10 +8,10 @@
 	color: white;
 }
 @media screen and(max-width: 640px){
-	.red-block-header br:nth-child(1){
+	.red-block--header br:nth-child(1){
 		display:none;
 	}
-	.red-block-header{
+	.red-block--header{
 	    font-size: 9vw;
     letter-spacing: -2px;
     top: 15vw;

@@ -17,7 +17,13 @@
 }
 .social-network--block:hover{
 	opacity:1;
+    transition-property:background;
 	transition: 0.5s;
+}
+.social-network--block:not(:hover){
+    opacity:0.8;
+    transition-property:background;
+    transition: 0.5s;
 }
 ._facebook{
 	background-image: url(../img/footer/fb.jpg);

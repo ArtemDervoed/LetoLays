@@ -1,28 +1,13 @@
+@import "animation";
 .aerostat{
 	width:50%;
 	background-image:url(../img/aerostat/aerostat.png), url(../img/aerostat/field.jpg);
 	background-repeat: no-repeat;
 	background-size: 15vw, 100% 100%;
 	background-position: 15vw 10vw,0;
+	z-index:0;
 }
-.aerostat:hover{
-animation-name: resizeAero, right;
-	animation-duration:20s , 0s; 
-	animation-iteration-count: infinite, 0;
-}
-@keyframes resizeAero {
-    0% {
-      background-size: 15vw, 100% 100%;
 
-    }
-    50% {
-    	
-       background-size: 17vw, 110% 110%;
-    }
-    100% {   	
-            background-size: 15vw, 100% 100%;
-    }
- }
 @media screen and(max-width: 640px){
 .aerostat{
 	width:100%;
@@ -31,7 +16,5 @@ animation-name: resizeAero, right;
     background-size: 28vw, 100% 100%;
     background-position: 35vw 30vw,0;
 }
-.aerostat:hover{
-	animation :none;
-}
+
 }

@@ -20,10 +20,10 @@ $(document).ready(function(){
 
 
 function readyPage(menu){
-    if(document.body.clientWidth <= '640'){
+    if(document.body.clientWidth <= '623'){
              menuHidden(menu);
         }
-         if(document.body.clientWidth > '640'){
+         if(document.body.clientWidth > '623'){
              menuVisible(menu);
              $('.escape-menu').addClass('_hidden');
              offsetMenu();

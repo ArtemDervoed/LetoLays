@@ -18,6 +18,18 @@
 		17vw 3vw,
 		2vw 14vw,
 		0 0;
+		z-index:1;
+}
+.map-square{
+    height: 7vw;
+    width: 7vw;
+    position: relative;
+    top: 9vw;
+    left: -3vw;
+    background-image: url(../img/map/areaundermap.jpg);
+    transform: rotate(45deg);
+     background-position: 192px -107px;
+    z-index: 1;
 }
 @media screen and(max-width: 640px){
 .map{
@@ -27,4 +39,7 @@ height: 50%;
     background-size: 20vw, 28vw, 90vw, cover;
     background-position: 42vw 16vw, 38vw 11vw, 5vw 40vw, 0 0;
 }
+.map-square{
+	display:none;
+	}
 }

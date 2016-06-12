@@ -9,6 +9,8 @@
 		width: 6vw;
 	}
 	 ._off{
+	 	transition:0.5s;
+	 	transform: rotate(0deg) translate(0,0);
 	    position: relative;
 	    height: 1vw;
 	    width: 100%;
@@ -16,8 +18,7 @@
 	    background-color: red;
 	}
 	._on:nth-child(1){
-		transition:all;
-		transition-duration:0.5s;
+		transition:0.5s;
 	    position: relative;
 	    height: 1vw;
 	    width: 100%;
@@ -26,8 +27,7 @@
 	    transform: rotate(40deg) translate(0.7vw,2.1vw);
 	}
 	._on:nth-child(2){
-		transition:all;
-		transition-duration:0.5s;
+		transition:0.5s;
 	    position: relative;
 	    height: 1vw;
 	    width: 100%;
@@ -36,8 +36,7 @@
 	    opacity:0;
 	}
 	._on:nth-child(3){
-		transition:all;
-		transition-duration:0.5s;
+		transition:0.5s;
 	    position: relative;
 	    height: 1vw;
 	    width: 100%;

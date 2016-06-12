@@ -14,7 +14,14 @@
     visibility:visible;
 }
 .menu--item:hover{
+    transition:1.5s;
+    transition-property:background-color;
     background-color: white;
+}
+.menu--item:not(:hover){
+    transition:1.5s;
+    transition-property:background-color;
+    background-color: #f6f6f6;
 }
  .escape-menu{
 visibility:hidden;
@@ -28,7 +35,15 @@ visibility:hidden;
     background-color: #f0eded;
 }
 .menu--item:nth-child(5):hover {
+   transition:1.5s;
+      transition-property:background-color;
    background-color: white;
+
+}
+.menu--item:nth-child(5):not(:hover) {
+   transition:1.5s;
+      transition-property:background-color;
+   background-color: #f0eded;
 
 }
     .escape-menu{
