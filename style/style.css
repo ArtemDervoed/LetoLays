@@ -403,7 +403,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 100%;
     height: 11.6vw;
     background-color: #f6f6f6;
-    z-index: 2;
+    z-index: 5;
   }
 }
 /* line 1, ../sass/container/_container.scss */
@@ -1021,11 +1021,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 /* line 14, ../sass/main-content/aerostat/_animation.scss */
-._animation:hover {
-  -webkit-animation-name: resizeAero, right;
-  -webkit-animation-duration: 20s , 0s;
-  -webkit-animation-iteration-count: infinite, 0;
-}
 
 /* line 2, ../sass/main-content/aerostat/_aerostat.scss */
 .aerostat {
@@ -1045,7 +1040,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     height: 50%;
     background-size: 28vw, 100% 100%;
     background-position: 35vw 30vw,0;
+
   }
+
 }
 /* line 2, ../sass/main-content/galery/_galery.scss */
 .galery {
@@ -1125,6 +1122,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     height: 50%;
     animation: none;
   }
+._animation-people:hover {
+  -webkit-animation-name: resizePeople, left;
+  -webkit-animation-duration: 0s,0s;
+  -webkit-animation-iteration-count: infinite, 0;
+}
+
 }
 /* line 10, ../sass/main-content/_main-content.scss */
 .container .main-content {
